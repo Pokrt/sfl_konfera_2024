@@ -13,18 +13,18 @@
           <li>
             <router-link to="/#about">About</router-link>
           </li>
-<!--          <li tabindex="0">-->
-<!--            <a class="justify-between">-->
-<!--              Parent-->
-<!--              <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">-->
-<!--                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/>-->
-<!--              </svg>-->
-<!--            </a>-->
-<!--            <ul class="p-2">-->
-<!--              <li><a>Submenu 1</a></li>-->
-<!--              <li><a>Submenu 2</a></li>-->
-<!--            </ul>-->
-<!--          </li>-->
+          <!--          <li tabindex="0">-->
+          <!--            <a class="justify-between">-->
+          <!--              Parent-->
+          <!--              <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">-->
+          <!--                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/>-->
+          <!--              </svg>-->
+          <!--            </a>-->
+          <!--            <ul class="p-2">-->
+          <!--              <li><a>Submenu 1</a></li>-->
+          <!--              <li><a>Submenu 2</a></li>-->
+          <!--            </ul>-->
+          <!--          </li>-->
           <li>
             <router-link to="/#partners">Partners</router-link>
           </li>
@@ -41,21 +41,21 @@
         <li>
           <router-link to="/#about">About</router-link>
         </li>
-<!--        <li tabindex="0">-->
-<!--          <a>-->
-<!--            Parent 2-->
-<!--            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">-->
-<!--              <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>-->
-<!--            </svg>-->
-<!--          </a>-->
-<!--          <ul class="p-2">-->
-<!--            <li><a href="/#about">Submenu 1</a></li>-->
-<!--            <li><a>Submenu 2</a></li>-->
-<!--          </ul>-->
-<!--        </li>-->
-                  <li>
-            <router-link to="/#partners">Partners</router-link>
-          </li>
+        <!--        <li tabindex="0">-->
+        <!--          <a>-->
+        <!--            Parent 2-->
+        <!--            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">-->
+        <!--              <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>-->
+        <!--            </svg>-->
+        <!--          </a>-->
+        <!--          <ul class="p-2">-->
+        <!--            <li><a href="/#about">Submenu 1</a></li>-->
+        <!--            <li><a>Submenu 2</a></li>-->
+        <!--          </ul>-->
+        <!--        </li>-->
+        <li>
+          <router-link to="/#partners">Partners</router-link>
+        </li>
       </ul>
     </div>
     <!--      <div class="navbar-end">-->
@@ -83,8 +83,11 @@
 
   <div class="mt-16 mb-36 flex place-content-center lg:mx-auto mx-5">
     <div class="prose lg:prose-xl text-white">
-
       <h1 id="about">About</h1>
+      <h3>Date: 2/2024</h3>
+      <h3>Location: Prague, CZ</h3>
+
+
       <h4>
         INSPIRED 2 CARE is a 5-day leadership program including key-notes, networking, company
         visits and cultural experience in the breathtaking city of Prague.
