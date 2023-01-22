@@ -81,7 +81,7 @@
   </div>
 
 
-  <div class="mt-16 mb-36 flex place-content-center lg:mx-auto mx-5">
+  <div class="mt-16 mb-36 flex place-content-center lg:mx-auto mx-5 text-justify">
     <div class="prose lg:prose-xl text-white">
       <h1 id="about">About</h1>
       <h3>Date: 2/2024</h3>
@@ -96,7 +96,7 @@
         It is a unique gathering of European leaders with the aim to inspire to care. To care in about 1. ourselves 2.
         our people 3. our customers 4. our nations and 5. this world.
       </p>
-      <p>I2C highlights the fact, that the Czech Republic is the global leader in "e-commerce logistics" (e.g. groceries
+      <p>I2C highlights the fact, that the Czech Republic is the global leader in "<span class="whitespace-nowrap">e-commerce</span> logistics" (e.g. groceries
         delivery) and digital user experience.</p>
       <p>I2C empowers all attendees to join this event travelling by train or using a different environmentally-friendly
         way.
