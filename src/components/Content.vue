@@ -36,6 +36,8 @@
                                           alt="JCI EPM 2024 logo"></div>
     </div>
 
+    <a href="https://share.hsforms.com/1QO-muzQ8Tsm5bIZBYClaeg5irbi" target="_blank"
+       class="btn btn-primary bg-gradient-to-r from-primary to-secondary animate-pulse hover:no-animation">keep me updated</a>
     <div class="navbar-end hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
         <li>
