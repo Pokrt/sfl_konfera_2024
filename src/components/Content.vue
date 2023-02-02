@@ -120,10 +120,10 @@
         <li>Community Impact</li>
       </ul>
       <h2 id="attendees">Attendees</h2>
-      <ul>
-        <li>
-          160 (future) leaders mainly from Europe
-        </li>
+
+        <h4>160 (future) leaders mainly from Europe</h4>
+
+        <ul>
         <li>
           45 decision-makers from 25 European countries
         </li>
