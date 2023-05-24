@@ -98,8 +98,8 @@
                 exchange ideas, share best practices and network.</p>
             <p>In 2024, JCI EPM will be hosted in the beautiful city of Prague, the capital of the Czech Republic.
                 Prague is known for its stunning architecture, rich history, and vibrant culture. The event will take
-                place from May 25th to May 28th and will feature exciting keynote speakers, interactive workshops, and
-                social events.</p>
+                place from February 8th to February 11th and will feature exciting keynote speakers, interactive
+                workshops, and social events.</p>
             <p>As a JCI member, attending JCI EPM 2024 in Prague is an opportunity to expand your network, enhance your
                 leadership skills, and experience the beauty of a historic European city. We invite you to join us and
                 be a part of this unforgettable event!</p>
