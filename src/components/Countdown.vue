@@ -28,6 +28,9 @@
       </div>
     </div>
   </div>
+  <div class="bg-red-700">
+    <p>{{seconds}}</p>
+  </div>
 </template>
 <script>
 
