@@ -30,6 +30,7 @@
   </div>
   <div class="bg-red-700">
     <p>{{seconds}}</p>
+    <p>{{new Date().getTime()}}</p>
   </div>
 </template>
 <script>
@@ -43,7 +44,7 @@ export default {
       hours: 0,
       minutes: 0,
       seconds: 0,
-      deadline: 'Nov 20, 2023 24:00:00'
+      deadline: '2023-11-20T24:00:00'
     }
   },
   created() {
