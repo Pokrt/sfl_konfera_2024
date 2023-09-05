@@ -28,10 +28,6 @@
       </div>
     </div>
   </div>
-  <div class="bg-red-700">
-    <p>{{seconds}}</p>
-    <p>{{new Date().getTime()}}</p>
-  </div>
 </template>
 <script>
 
