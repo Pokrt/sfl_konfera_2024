@@ -43,18 +43,21 @@ export default {
       deadline: 'Nov 20, 2023 24:00:00'
     }
   },
-  mounted() {
-    setInterval(() => {
-      this.getTimeRemaining(this.deadline);
-    }, 1000);
+  created() {
+    this.getTimeRemaining()
   },
   methods: {
-    getTimeRemaining(endtime) {
-      const total = new Date(endtime).getTime() - new Date().getTime();
-      this.seconds = Math.floor((total / 1000) % 60);
-      this.minutes = Math.floor((total / 1000 / 60) % 60);
-      this.hours = Math.floor((total / (1000 * 60 * 60)) % 24);
-      this.days = Math.floor(total / (1000 * 60 * 60 * 24));
+    getTimeRemaining() {
+      setTimeout(() => {
+        const total = new Date(this.deadline).getTime() - new Date().getTime();
+        this.seconds = Math.floor((total / 1000) % 60);
+        this.minutes = Math.floor((total / 1000 / 60) % 60);
+        this.hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+        this.days = Math.floor(total / (1000 * 60 * 60 * 24));
+        this.getTimeRemaining();
+      }, 1000);
+
+
     }
   }
 
