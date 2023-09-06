@@ -8,14 +8,14 @@
       </div>
       <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
         <!-- Pricing Card -->
-        <div class="col-start-2 col-span-1">
-          <div class="form-control">
-            <label class="label cursor-pointer">
-              <span class="label-text text-xl text-white">Show JCI member prices</span>
-              <input type="checkbox" v-model="this.jciMember" class="toggle toggle-primary "/>
-            </label>
-          </div>
-        </div>
+<!--        <div class="col-start-2 col-span-1">-->
+<!--          <div class="form-control">-->
+<!--            <label class="label cursor-pointer">-->
+<!--              <span class="label-text text-xl text-white">Show JCI member prices</span>-->
+<!--              <input type="checkbox" v-model="this.jciMember" class="toggle toggle-primary "/>-->
+<!--            </label>-->
+<!--          </div>-->
+<!--        </div>-->
 
         <div
             class="flex flex-col col-start-1 p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg border border-gray-100 shadow  xl:p-8">
