@@ -1,73 +1,4 @@
 <template>
-  <!--  menu-->
-  <!--    <div class=" z-10 navbar bg-base-100 fixed ">-->
-  <!--      <div class="navbar-start">-->
-  <!--        <div class="dropdown">-->
-  <!--          <label tabindex="0" class="btn btn-ghost lg:hidden">-->
-  <!--            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"-->
-  <!--                 stroke="currentColor">-->
-  <!--              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"/>-->
-  <!--            </svg>-->
-  <!--          </label>-->
-  <!--          <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">-->
-  <!--            <li tabindex="0">-->
-  <!--              <router-link to="/#about">About</router-link>-->
-  <!--            </li>-->
-  <!--            &lt;!&ndash;          <li tabindex="0">&ndash;&gt;-->
-  <!--            &lt;!&ndash;            <a class="justify-between">&ndash;&gt;-->
-  <!--            &lt;!&ndash;              Parent&ndash;&gt;-->
-  <!--            &lt;!&ndash;              <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">&ndash;&gt;-->
-  <!--            &lt;!&ndash;                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/>&ndash;&gt;-->
-  <!--            &lt;!&ndash;              </svg>&ndash;&gt;-->
-  <!--            &lt;!&ndash;            </a>&ndash;&gt;-->
-  <!--            &lt;!&ndash;            <ul class="p-2">&ndash;&gt;-->
-  <!--            &lt;!&ndash;              <li><a>Submenu 1</a></li>&ndash;&gt;-->
-  <!--            &lt;!&ndash;              <li><a>Submenu 2</a></li>&ndash;&gt;-->
-  <!--            &lt;!&ndash;            </ul>&ndash;&gt;-->
-  <!--            &lt;!&ndash;          </li>&ndash;&gt;-->
-  <!--&lt;!&ndash;            <li>&ndash;&gt;-->
-  <!--&lt;!&ndash;              <router-link to="/#partners">Partners</router-link>&ndash;&gt;-->
-  <!--&lt;!&ndash;            </li>&ndash;&gt;-->
-  <!--          </ul>-->
-  <!--        </div>-->
-  <!--        &lt;!&ndash;      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>&ndash;&gt;-->
-  <!--        <div class="flex items-center"><img class="lg:w-16 lg:h-16 h-10 w-10"-->
-  <!--                                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc3IiBoZWlnaHQ9IjE2MyIgdmlld0JveD0iMCAwIDE3NyAxNjMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik01NC4wNzI5IDQ2LjI5MTdDNTguMTc3MSA1MS4wNzI5IDYxLjE1NjIgNTYuNTk5IDYxLjE1NjIgNTkuMzU5NEM2MS4xNTYyIDYxIDYwLjQ4NDQgNjEuNTk5IDU3LjEzMDIgNjMuMDkzOEM1MS40NjM1IDY1LjU1NzMgNDQuOTAxIDY3LjE5NzkgNDAuMjc2IDY3LjE5NzlIMzYuMzIyOUwzNi43NzA4IDY0LjIxMzVDMzcuNTg4NSA1OC4wODg1IDQ3LjY1NjIgNDAuNTQxNyA0OS42NzE5IDQxLjY2MTVDNTAuMTE5OCA0MS45NjM1IDUyLjEzNTQgNDQuMDUyMSA1NC4wNzI5IDQ2LjI5MTdaIiBmaWxsPSIjRjJCOTYzIi8+CjxwYXRoIGQ9Ik03OC41MzY1IDQyLjU1NzNDODAuNDc0IDQzLjYwNDIgODIuMDQxNyA0NC44NzUgODIuMDQxNyA0NS4zMjI5QzgyLjA0MTcgNDcuMDQxNyA3My41MzY1IDU0LjU3ODEgNjguMTY2NyA1Ny43MTg4QzY3LjY0NTggNTguMDE1NiA2Ni4zODAyIDU2LjM3NSA2NS4wMzY1IDUzLjUzNjVDNjMuNzcwOCA1MC45OTQ4IDYwLjcwODMgNDYuNDQyNyA1OC4xNzcxIDQzLjM4MDJDNTUuNzEzNSA0MC4zMTc3IDUzLjY5NzkgMzcuNjMwMiA1My42OTc5IDM3LjMzMzNDNTMuNjk3OSAzNi41ODMzIDU1Ljg2NDYgMzQuMzQzOCA1OS41MTU2IDMxLjIwODNMNjIuNzI0IDI4LjUyMDhMNjguODM4NSAzNC42NDU4QzcyLjE5NzkgMzguMDA1MiA3Ni41MjA4IDQxLjUxNTYgNzguNTM2NSA0Mi41NTczWiIgZmlsbD0iI0YyQjk2MyIvPgo8cGF0aCBkPSJNOTYuOTU4MyAyMC4wODMzQzk2Ljk1ODMgMjIuMDk5IDk1LjgzODUgMjUuMjM0NCA5My4yMjkyIDMwLjM5MDZDODguMzA3MyA0MC4wOTM4IDg3Ljg1OTQgNDAuNjE5OCA4NS4yNSAzOS45NDc5QzgyLjE5MjcgMzkuMTk3OSA3My41MzY1IDMzLjIyNCA3MS4zMDIxIDMwLjMxMjVDNjguMjQ0OCAyNi4yODEzIDY4LjY5MjcgMjUuMDEwNCA3NC4wNjI1IDIyLjU0NjlDODEuODE3NyAxOC44OTA2IDg3LjAzNjUgMTcuNDY4OCA5My40NTMxIDE3LjI0NDhMOTYuOTU4MyAxNy4xNzE5VjIwLjA4MzNaIiBmaWxsPSIjRjJCOTYzIi8+CjxwYXRoIGQ9Ik0xMTEuMDUyIDE3LjYxOThDMTExLjI3NiAxNy43NzA4IDExMC44MjggMjAuNDU4MyAxMTAuMDgzIDIzLjU5MzhDMTA5LjMzOSAyNi43MjkyIDEwOC4xNDYgMzIuODU0MiAxMDcuNDc0IDM3LjI1NTJMMTA2LjI4MSA0NS4xNzE5TDEwMy42NzIgNDQuOTQ3OUMxMDAuNzYgNDQuNzI0IDkzLjIyOTIgNDIuNzA4MyA5My4yMjkyIDQyLjE4NzVDOTMuMjI5MiA0Mi4wMzY1IDk0Ljg2OTggMzguNzUgOTYuODg1NCAzNC45NDI3QzEwMC4yNCAyOC41MjA4IDEwMi4wMzEgMjMuODE3NyAxMDMuMjk3IDE4LjM2NDZDMTAzLjc0NSAxNi4zNDkgMTAzLjgxOCAxNi4yNzYgMTA3LjI1IDE2Ljc5NjlDMTA5LjE4OCAxNy4wOTkgMTEwLjkwNiAxNy40Njg4IDExMS4wNTIgMTcuNjE5OFoiIGZpbGw9IiNGMkI5NjMiLz4KPHBhdGggZD0iTTEyNC41NTIgMjAuMTU2MkMxMjcuNTM2IDIxLjM1NDIgMTI3LjkxMSAyMS43MjkyIDEyOC4wNTcgMjMuOTY4OEMxMjguMjA4IDI1LjM4NTQgMTI2Ljg2NSAzMC41MzY1IDEyNS4wNzMgMzUuODM4NUwxMjEuOTQzIDQ1LjE3MTlMMTE2Ljk0OCA0NS4zOTU4QzExMi45MTcgNDUuNTQ2OSAxMTEuODc1IDQ1LjM5NTggMTExLjg3NSA0NC41QzExMS44NzUgNDIuMTA5NCAxMTUuMDA1IDI1LjQ1ODMgMTE2LjEyNSAyMS44NzVDMTE3LjQ2OSAxNy40Njg4IDExNy41NDIgMTcuNDY4OCAxMjQuNTUyIDIwLjE1NjJaIiBmaWxsPSIjRjJCOTYzIi8+CjxwYXRoIGQ9Ik0xMzkuNTQyIDI3LjQwMUMxNDQuMDk0IDMwLjQ2MzUgMTQ3LjQ0OCAzMy4yMjQgMTQ5LjA4OSAzNS4zMTc3QzE0OS45ODQgMzYuNDM3NSAxNDkuNTM2IDM2LjgwNzMgMTQ0LjYxNSAzOS4xOTc5QzEzOS4zOTYgNDEuNjYxNSAxMjkuNDAxIDQ0LjY1MSAxMjguNjU2IDQzLjk3OTJDMTI4LjQzMiA0My42NzcxIDEyOS40MDEgNDAuMTcxOSAxMzMuOTUzIDI1LjUzNjVDMTM0LjMyMyAyNC4xOTI3IDEzNC45OTUgMjQuNDE2NyAxMzkuNTQyIDI3LjQwMVoiIGZpbGw9IiNGMkI5NjMiLz4KPHBhdGggZD0iTTE2MC4wNTIgNDguMTYxNUMxNjEuMDk5IDUwLjE3NzEgMTYxLjI1IDUxLjA3MjkgMTYwLjY1MSA1Mi4wNDE3QzE1OC4wNDIgNTYuMTUxIDExNi4zNDkgNzIuOTQ3OSAxMTYuMzQ5IDY5LjgxMjVDMTE2LjM0OSA2OS4zNjQ2IDExOC4zNjUgNjQuNzM0NCAxMjAuNzUgNTkuNTgzM0wxMjUuMjI0IDUwLjI1TDEzMC42NjcgNDguOTA2MkMxMzcuNjA0IDQ3LjI2NTYgMTQ3LjMwMiA0My45NzkyIDE1MS4xMDQgNDEuOTYzNUwxNTQuMDE2IDQwLjM5NThMMTU2LjMyMyA0Mi45MzIzQzE1Ny41OTQgNDQuMzQ5IDE1OS4yMzQgNDYuNjY2NyAxNjAuMDUyIDQ4LjE2MTVaIiBmaWxsPSIjRjJCOTYzIi8+CjxwYXRoIGQ9Ik0xMTguNTg5IDUxLjU5MzhDMTE4LjU4OSA1Mi41NjI1IDExMi4wOTkgNjUuNzgxMyAxMTEuMDUyIDY2LjgyODFDMTEwLjY4MiA2Ny4xOTc5IDExMC4zOCA2NC41ODg1IDExMC4zOCA1OS42NTYyQzExMC4zOCA1NS4zMjgxIDExMC42MDQgNTEuNTIwOCAxMTAuOTA2IDUxLjI5NjlDMTExLjcyNCA1MC40MDEgMTE4LjU4OSA1MC42OTc5IDExOC41ODkgNTEuNTkzOFoiIGZpbGw9IiNGMkI5NjMiLz4KPHBhdGggZD0iTTk4LjA3ODEgNDkuMTMwMkwxMDQuMDQyIDUwLjQ3NFY3NC4yOTE3TDk2LjUxMDQgNzYuMjM0NEM4OS4wNTIxIDc4LjE3NzEgNzEuODIyOSA4MS4wODg1IDcxLjIyOTIgODAuNTY3N0M3MS4wNzgxIDgwLjQxNjcgNzAuODU0MiA3Ni4yMzQ0IDcwLjc4MTIgNzEuMzgwMkM3MC42MzAyIDYzLjU0MTcgNzAuNzAzMSA2Mi40OTQ4IDcxLjg5NTggNjEuODIyOUM3NC4xMzU0IDYwLjU1MjEgODIuNzEzNSA1My4wODg1IDg1LjYxOTggNDkuODc1Qzg3Ljc4NjUgNDcuNDExNSA4OC42NzcxIDQ2Ljk2MzUgOTAuMTcxOSA0Ny4zMzg1QzkxLjIxMzUgNDcuNjM1NCA5NC43OTY5IDQ4LjQ1ODMgOTguMDc4MSA0OS4xMzAyWiIgZmlsbD0iI0YyQjk2MyIvPgo8cGF0aCBkPSJNNjMuMDIwOCA3My4zMjI5QzYzLjAyMDggNzcuMTMwMiA2Mi43MjQgODAuNjQwNiA2Mi41IDgxLjA4ODVDNjEuODI4MSA4Mi4xMzU0IDQyLjQzNzUgODQgMzUuNDI3MSA4My43MDMxQzM0LjAxMDQgODMuNjI1IDMzLjg1OTQgODMuMTc3MSAzMy45Mzc1IDc4LjYyNVY3My42OTc5TDQyLjI4NjUgNzIuMjc2QzQ2LjgzODUgNzEuNTMxMyA1My4zMjgxIDY5Ljg4NTQgNTYuNzU1MiA2OC42OTI3QzYwLjE4NzUgNjcuNTcyOSA2My4wMjA4IDY2LjUyNiA2My4wMjA4IDY2LjUyNlY3My4zMjI5WiIgZmlsbD0iI0YyQjk2MyIvPgo8cGF0aCBkPSJNNjAuNDExNSA5MC4wNDY5QzU5LjIxODggOTUuNDIxOSA1OC4wOTkgOTcuMjE4OCA1Ni4zODU0IDk2LjY5MjdDNTUuNDg5NiA5Ni4zOTU4IDUwLjExOTggOTYuMDIwOCA0NC4zMDIxIDk1Ljc5NjlMMzMuODU5NCA5NS40MjE5TDMzLjcxMzUgOTIuNTg4NUwzMy40ODk2IDg5LjgyMjlMNDMuMDM2NSA4OC45MjcxQzQ4LjI1NTIgODguNDc5MiA1My42MjUgODcuOTU4MyA1NC44MTc3IDg3LjgwNzNDNjEuMTU2MyA4Ny4xMzU0IDYxLjA4MzMgODcuMTM1NCA2MC40MTE1IDkwLjA0NjlaIiBmaWxsPSIjRjJCOTYzIi8+CjxwYXRoIGQ9Ik01Mi4wNTczIDEwMS4zMjNDNTMuMzI4MSAxMDEuNTQ3IDU0LjQ0NzkgMTAxLjkyMiA1NC40NDc5IDEwMi4yMTlDNTQuNDQ3OSAxMDMuNzg2IDQyLjczNDQgMTIwLjg4NSA0MS42OTI3IDEyMC45NThDNDAuMjc2IDEyMC45NTggMzQuODI4MSAxMDYuMTA0IDM1LjIwMzEgMTAzLjExNUMzNS40MjcxIDEwMS40NzQgMzUuODc1IDEwMS4wOTkgMzguNDExNSAxMDAuNzI0QzQxLjMxNzcgMTAwLjIwMyA0Ny4yODY1IDEwMC41IDUyLjA1NzMgMTAxLjMyM1oiIGZpbGw9IiNGMkI5NjMiLz4KPHBhdGggZD0iTTY2Ljk3NCAxMDUuOTUzQzcxLjY3MTkgMTA4LjM0NCA3Ny41Njc3IDExMy40MTcgNzcuNTY3NyAxMTQuOTlDNzcuNTY3NyAxMTYuNzAzIDY1LjYzNTQgMTMyLjY4MiA2MC45MzIzIDEzNy4yNEw1Ny42NTEgMTQwLjUyNkw1NS4wNDE3IDEzOC4yMDhDNTAuOTQyNyAxMzQuNjI1IDQ2LjIzOTYgMTI4LjEzIDQ2LjIzOTYgMTI2LjExNUM0Ni4yMzk2IDEyNC45OTUgNDguNDA2MiAxMjEuMTgyIDUxLjMxMjUgMTE3LjAwNUM1NC4wNzI5IDExMy4wNDcgNTcuMjAzMSAxMDguMzQ0IDU4LjMyMjkgMTA2LjQ3NEM2MC41NjI1IDEwMi42NjcgNjAuNjM1NCAxMDIuNjY3IDY2Ljk3NCAxMDUuOTUzWiIgZmlsbD0iI0YyQjk2MyIvPgo8cGF0aCBkPSJNODYuMjkxNyAxMjIuOTc5QzkxLjE0MDYgMTMwLjA2OCA5My4yMjkyIDEzNC4wMjYgOTMuMTU2MiAxMzYuMzQ0QzkzLjE1NjIgMTM4LjIwOCA5Mi41NTczIDEzOC44MDcgODguODI4MSAxNDAuNTk5Qzg2LjUxNTYgMTQxLjc5MiA4Mi4yNjU2IDE0NC41NTcgNzkuNTA1MiAxNDYuNzk3TDc0LjQzMjMgMTUwLjgyOEw3MC4wMzEyIDE0OC41MTZDNjcuNjQ1OCAxNDcuMjQ1IDY1LjEwOTQgMTQ1LjUyNiA2NC40Mzc1IDE0NC43ODFDNjMuMTcxOSAxNDMuMzU5IDYzLjE3MTkgMTQzLjIxNCA2NC41ODg1IDE0MS40OTVDNjUuMzMzMyAxNDAuNTI2IDY5LjczNDQgMTM1IDc0LjIwODMgMTI5LjI1Qzc4Ljc2MDQgMTIzLjQyNyA4Mi42MzU0IDExOC43MTkgODIuODU5NCAxMTguNzE5QzgzLjA4MzMgMTE4LjcxOSA4NC42NTEgMTIwLjY2MSA4Ni4yOTE3IDEyMi45NzlaIiBmaWxsPSIjRjJCOTYzIi8+CjxwYXRoIGQ9Ik05OC44MjI5IDE0OS4wMzZDMTAwLjc2IDE1Ni41MDUgMTAwLjgzOSAxNTYuMzU0IDk0LjE5NzkgMTU1LjgzM0M4OC41MzEzIDE1NS4zOCA4MS4yOTY5IDE1My40NDMgODEuMjk2OSAxNTIuMzk2QzgxLjI5NjkgMTUxLjQyNyA4OC4zODAyIDE0Ni40MjIgOTIuNDg0NCAxNDQuNTU3Qzk3LjE4MjMgMTQyLjM5MSA5Ny4wMzEzIDE0Mi4zMTggOTguODIyOSAxNDkuMDM2WiIgZmlsbD0iI0YyQjk2MyIvPgo8cGF0aCBkPSJNMTEyLjk5NSAxNDcuODQ0QzExMi45OTUgMTU1LjkwNiAxMTIuOTE3IDE1Ni4wNTcgMTA4LjA3MyAxNTYuMDU3QzEwNi4yMDggMTU2LjA1NyAxMDYuMDU3IDE1NS42ODIgMTA0LjQxNyAxNDguOTY0QzEwMy40NDggMTQ1LjAwNSAxMDIuODQ5IDE0MS42NDYgMTAzLjA3MyAxNDEuNDk1QzEwMy43NDUgMTQwLjgyMyAxMDkuODU5IDEzOS45MjcgMTExLjUgMTQwLjIyNEMxMTIuOTE3IDE0MC40NDggMTEyLjk5NSAxNDEuMDQ3IDExMi45OTUgMTQ3Ljg0NFoiIGZpbGw9IiNGMkI5NjMiLz4KPHBhdGggZD0iTTEyOS4wMjYgMTQzLjgwN0MxMzUuMTQ2IDE0Ni40OTUgMTM1LjY2NyAxNDcuMzE4IDEzMi42MDkgMTQ5LjE4OEMxMzAgMTUwLjc1NSAxMjEuNjQ2IDE1My44MTIgMTE5Ljc4MSAxNTMuODEyQzExOC45NTggMTUzLjgxMiAxMTguNzM0IDE1Mi42MiAxMTguNzM0IDE0OC43NEMxMTguNzM0IDE0MS40MjIgMTE4Ljk1OCAxNDAuODk2IDEyMi4wMTYgMTQxLjM0NEMxMjMuMzU5IDE0MS41NjggMTI2LjU2OCAxNDIuNjg4IDEyOS4wMjYgMTQzLjgwN1oiIGZpbGw9IiNGMkI5NjMiLz4KPHBhdGggZD0iTTEwOS4yNjYgODcuMTM1NEMxMTAuNzU1IDkyLjIxMzUgMTE1LjkwMSAxMDIuOTY0IDExOS4yNTUgMTA3Ljc0NUMxMjIuMDk0IDExMS45MjcgMTIyLjE2NyAxMTMuNDE3IDExOS40MDYgMTIwLjM2NUMxMTguMjE0IDEyMy4zNDkgMTE2LjY0NiAxMjcuOTA2IDExNS45NzQgMTMwLjM3TDExNC43MDggMTM0LjkyMkwxMDguNjY3IDEzNS4zN0MxMDUuMzEzIDEzNS41OTQgMTAyLjAzMSAxMzUuOTY5IDEwMS4zNTkgMTM2LjE5M0MxMDAuNTM2IDEzNi41NjggOTkuNzkxNyAxMzUuNjcyIDk4LjM3NSAxMzIuNzZDOTcuNDA2MiAxMzAuNTk0IDk0LjY0NTggMTI1Ljg5MSA5Mi4zMzMzIDEyMi4yMjlDODkuOTQ3OSAxMTguNjQ2IDg4LjAwNTIgMTE0LjkxMSA4OC4wMDUyIDExMy44N0M4OC4wMDUyIDExMi44MjMgOTAuMzk1OCAxMDguNjQxIDkzLjY3NzEgMTA0LjAxQzk2LjczNDQgOTkuNjA0MiAxMDEuMTM1IDkzLjAzNjUgMTAzLjQ0OCA4OS4zNzVDMTA1LjY4MiA4NS43OTE3IDEwNy42MjUgODIuODgwMiAxMDcuNzcxIDgyLjg4MDJDMTA3LjkyMiA4Mi44ODAyIDEwOC41OTQgODQuODIyOSAxMDkuMjY2IDg3LjEzNTRaIiBmaWxsPSIjRjJCOTYzIi8+CjxwYXRoIGQ9Ik0xNzAuMDQ3IDg5LjQ1MzFDMTcwLjA0NyAxMDMuMTE1IDE2OC45MjcgMTA4LjU2OCAxNjQuMDA1IDExOC4zNDlDMTYwLjg3NSAxMjQuNDY5IDE1NS41NzggMTMyLjE2MSAxNTQuNDU4IDEzMi4xNjFDMTUzLjQxNyAxMzIuMTYxIDEzOS40NjkgMTIxLjQ4NCAxMzUuMjE5IDExNy40NTNDMTMyLjM4NSAxMTQuODM5IDEzMS4yNjYgMTEzLjE5MyAxMzEuMjY2IDExMS44NDlDMTMxLjI2NiAxMDcuNjcyIDE0Mi4yMjkgOTQuNTI2IDE1MS42MjUgODcuMzU5NEMxNTUuNDMyIDg0LjUyMDggMTY3Ljk1OCA3Ny43MjkyIDE2OS41MjYgNzcuNjUxQzE2OS44MjMgNzcuNjUxIDE3MC4wNDcgODIuOTUzMSAxNzAuMDQ3IDg5LjQ1MzFaIiBmaWxsPSIjRjJCOTYzIi8+CjxwYXRoIGQ9Ik0xNDIuOTc0IDEzMC41MTZDMTQ2LjMzMyAxMzMuMDU3IDE0OS4zMTMgMTM1LjUyMSAxNDkuNTM2IDEzNS45NjlDMTUwLjEzNSAxMzYuOTM3IDE0Ny43NSAxMzkuNjMgMTQzLjg3IDE0Mi4zMThMMTQxLjAzNiAxNDQuMjU1TDEzNC40NzQgMTQwLjg5NkMxMzAuODkxIDEzOS4wMzEgMTI2LjQ5NSAxMzcuMDg5IDEyNC43NzYgMTM2LjU2OEMxMjEuNzE5IDEzNS42NzIgMTIxLjU2OCAxMzUuNTIxIDEyMS41NjggMTMyLjgzM0MxMjEuNTY4IDEzMC4yMTkgMTI0LjAzMSAxMjIuNTMxIDEyNi4wNDcgMTE4LjcxOUMxMjYuNzkyIDExNy4zMDIgMTI3LjA4OSAxMTcuMzc1IDEzMS44NjUgMTIxLjU1N0MxMzQuNjIgMTIzLjk0OCAxMzkuNjIgMTI3Ljk3OSAxNDIuOTc0IDEzMC41MTZaIiBmaWxsPSIjRjJCOTYzIi8+CjxwYXRoIGQ9Ik05My42NzcxIDk0LjY3NzFDODkuNDI3MSAxMDEuMDk5IDg1LjA5OSAxMDcuMzcgODQuMDU3MyAxMDguNTY4TDgyLjI2NTYgMTEwLjcyOUw3OC4xNjE1IDEwNy4zN0M3NS45MjcxIDEwNS41MDUgNzEuOTc0IDEwMi44OTEgNjkuNDM3NSAxMDEuNDc0QzY0LjIxMzUgOTguNTYyNSA2My45OTQ4IDk3Ljg5MDYgNjYuNDUzMSA5MS4wMjA4TDY4LjAyMDggODYuNjg3NUw3My4zOTA2IDg1Ljg2NDZDNzYuMjk2OSA4NS4zNDM4IDgzLjc1NTIgODQuMDcyOSA4OS44Njk4IDgyLjk1MzFDOTkuMDQ2OSA4MS4yMzk2IDEwMS4xMzUgODEuMDg4NSAxMDEuMjgxIDgxLjkxMTVDMTAxLjQzMiA4Mi41MDUyIDk4IDg4LjI1NTIgOTMuNjc3MSA5NC42NzcxWiIgZmlsbD0iI0YyQjk2MyIvPgo8cGF0aCBkPSJNMTY2LjYyIDYxQzE2Ny4yODYgNjIuOTQyNyAxNjcuODEyIDY2LjIyOTIgMTY3LjgxMiA2OC4zMTc3VjcyLjEzMDJMMTY0LjMwNyA3My44NDM4QzE1Ni4wMjYgNzcuODAyMSAxNDUuNzM0IDg1LjQxNjcgMTM4LjIwMyA5My4xMDk0QzEzNC4wMjYgOTcuMzY0NiAxMjkuNjk4IDEwMi4zNyAxMjguNTA1IDEwNC4xNjFDMTI3LjM4NSAxMDYuMDI2IDEyNi4xOTMgMTA3LjUyMSAxMjUuODk2IDEwNy41MjFDMTI1LjE1MSAxMDcuNTIxIDEyMC41MjYgOTkuNjA0MiAxMTcuMzk2IDkzLjAzNjVDMTE1LjE1NiA4OC4yNTUyIDExNC42MzUgODYuMzEyNSAxMTQuNTU3IDgyLjM1OTRMMTE0LjQ4NCA3Ny41MDUyTDEyNS4yOTcgNzMuNjE5OEMxMzkuNTQyIDY4LjM5NTggMTQ5LjYxNSA2NC4yODY1IDE1Ny4yOTcgNjAuNTUyMUMxNjAuODAyIDU4LjgzODUgMTY0LjAwNSA1Ny40OTQ4IDE2NC41MzEgNTcuNDk0OEMxNjUuMDUyIDU3LjQ5NDggMTY1Ljk0OCA1OS4wNjI1IDE2Ni42MiA2MVoiIGZpbGw9IiNGMkI5NjMiLz4KPC9zdmc+Cg=="-->
-  <!--                                            alt="JCI EPM 2024 logo"></div>-->
-  <!--      </div>-->
-
-  <!--      <a href="https://share.hsforms.com/1QO-muzQ8Tsm5bIZBYClaeg5irbi" target="_blank"-->
-  <!--         class="btn btn-primary bg-gradient-to-r from-primary to-secondary animate-pulse hover:no-animation">keep me updated</a>-->
-  <!--      <div class="navbar-end hidden lg:flex">-->
-  <!--        <ul class="menu menu-horizontal px-1">-->
-  <!--          <li>-->
-  <!--            <router-link to="/#about">About</router-link>-->
-  <!--          </li>-->
-  <!--          &lt;!&ndash;        <li tabindex="0">&ndash;&gt;-->
-  <!--          &lt;!&ndash;          <a>&ndash;&gt;-->
-  <!--          &lt;!&ndash;            Parent 2&ndash;&gt;-->
-  <!--          &lt;!&ndash;            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">&ndash;&gt;-->
-  <!--          &lt;!&ndash;              <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/>&ndash;&gt;-->
-  <!--          &lt;!&ndash;            </svg>&ndash;&gt;-->
-  <!--          &lt;!&ndash;          </a>&ndash;&gt;-->
-  <!--          &lt;!&ndash;          <ul class="p-2">&ndash;&gt;-->
-  <!--          &lt;!&ndash;            <li><a href="/#about">Submenu 1</a></li>&ndash;&gt;-->
-  <!--          &lt;!&ndash;            <li><a>Submenu 2</a></li>&ndash;&gt;-->
-  <!--          &lt;!&ndash;          </ul>&ndash;&gt;-->
-  <!--          &lt;!&ndash;        </li>&ndash;&gt;-->
-  <!--&lt;!&ndash;          <li>&ndash;&gt;-->
-  <!--&lt;!&ndash;            <router-link to="/#partners">Partners</router-link>&ndash;&gt;-->
-  <!--&lt;!&ndash;          </li>&ndash;&gt;-->
-  <!--        </ul>-->
-  <!--      </div>-->
-  <!--      &lt;!&ndash;      <div class="navbar-end">&ndash;&gt;-->
-  <!--      &lt;!&ndash;        <a class="btn">Get started</a>&ndash;&gt;-->
-  <!--      &lt;!&ndash;      </div>&ndash;&gt;-->
-  <!--    </div>-->
-
-  <!--  background-->
-
-
   <div class="hero min-h-screen" style="background-image: url(prague-4317016.jpg);">
     <div class="hero-overlay bg-base-100 bg-opacity-70"></div>
     <div class="hero-content text-center text-neutral-content">
@@ -81,14 +12,19 @@
           <p class="text-white pb-2">Early bird tickets are still available for</p>
           <Countdown/>
         </div>
+        <div class="join join-horizontal">
+          <router-link to="#tickets"
+                       class=" mt-10 btn btn-primary join-item rounded-r-none border-r-2  border-r-base-100">Standard tickets
+          </router-link><router-link to="#tickets_gala"
+                       class=" mt-10 btn btn-primary join-item rounded-l-none border-l-2 border-l-base-100">Gala tickets
+          </router-link>
+        </div>
+<!--        <div><a href="https://share.hsforms.com/1QO-muzQ8Tsm5bIZBYClaeg5irbi"-->
+<!--                class=" mt-10 btn btn-primary ">Sign up for newsletter-->
+<!--        </a></div>-->
         <div>
-        <router-link to="#tickets"
-                     class=" mt-10 btn btn-primary ">Tickets
-        </router-link></div>
-       <div><a href="https://share.hsforms.com/1QO-muzQ8Tsm5bIZBYClaeg5irbi"
-                     class=" mt-10 btn btn-primary ">Sign up for newsletter
-        </a></div>
-        <div><router-link class="lg:mt-10 mt-16 btn btn-neutral" to="#about">Read more</router-link></div>
+          <router-link class="lg:mt-10 mt-16 btn btn-neutral" to="#about">Read more</router-link>
+        </div>
 
       </div>
     </div>
@@ -114,8 +50,11 @@
         be a part of this unforgettable event!</p>
     </div>
   </div>
-  <div id="tickets">
+    <div id="tickets">
     <Tickets/>
+  </div>
+  <div id="tickets_gala">
+    <TicketsGala/>
   </div>
 
 
@@ -205,11 +144,13 @@
 <script>
 
 import Tickets from "./Tickets.vue";
+import TicketsGala from "./TicketsGala.vue";
 import Countdown from "./Countdown.vue";
+
 
 export default {
   name: "Content",
-  components: {Countdown, Tickets}
+  components: {TicketsGala, Countdown, Tickets}
 }
 </script>
 
