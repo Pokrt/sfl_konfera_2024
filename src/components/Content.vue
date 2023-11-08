@@ -34,8 +34,9 @@
   <div class="mt-16 mb-36 flex place-content-center lg:mx-auto mx-5 text-justify">
     <div class="prose lg:prose-xl text-white prose-headings:text-primary">
       <h1 id="about">About</h1>
-      <h3>Date: 8. - 11. February 2024</h3>
-      <h3>Location: Prague, CZ</h3>
+      <h3>8. - 11. February 2024</h3>
+      <h3>Prague, CZ</h3>
+      <h4>Gala Cocktail 10. February 2024</h4>
       <p>Welcome to the official website of JCI EPM 2024 in Prague!</p>
       <p>JCI (Junior Chamber International) is a worldwide organization bringing together young active individuals
         who strive to develop their leadership skills and create positive change in their communities. The JCI
