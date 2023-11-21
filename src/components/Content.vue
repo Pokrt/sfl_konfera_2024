@@ -9,7 +9,7 @@
                                             alt="JCI EPM 2024 logo">
         </div>
         <div class=" items-center self-center ">
-          <p class="text-white pb-2">Early bird tickets are still available for</p>
+          <p class="text-white pb-2">Regular tickets are still available for</p>
           <Countdown/>
         </div>
         <div class="join join-horizontal">
@@ -56,6 +56,9 @@
   </div>
   <div id="tickets_gala">
     <TicketsGala/>
+  </div>
+  <div id="constact" class="mt-10 mb-10" >
+    <p class="text-center "><a class="link" href="mailto:epm24@jcicr.cz ">epm24@jcicr.cz</a></p>
   </div>
 
 
