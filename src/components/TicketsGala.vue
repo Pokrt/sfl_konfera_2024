@@ -9,7 +9,7 @@
 
         <div
             class="flex flex-col col-start-1 p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg   shadow  xl:p-8">
-          <h3 class="mb-4 text-2xl font-semibold">Early Bird</h3>
+          <h3 class="mb-4 text-2xl font-semibold">Regular ticket</h3>
           <!--          <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next-->
           <!--            project.</p>-->
           <div class="flex justify-center items-baseline my-8">
@@ -29,7 +29,7 @@
               <span>{{ item }}</span>
             </li>
           </ul>
-          <a href="https://share.hsforms.com/1ztQdTUYBT_SnsqmGr19V1w5irbi"
+          <a href="https://share.hsforms.com/1s6SQyVsNT8akL0pFAIWc8A5irbi"
              class=" btn-primary btn">Get ticket</a>
         </div>
 
@@ -65,7 +65,7 @@
               <span>{{ item }}</span>
             </li>
           </ul>
-            <a href="https://share.hsforms.com/1ztQdTUYBT_SnsqmGr19V1w5irbi"
+            <a href="https://share.hsforms.com/1s6SQyVsNT8akL0pFAIWc8A5irbi"
              class=" btn-primary btn">Get ticket</a>
         </div>
 
@@ -98,7 +98,7 @@
             </li>
 
           </ul>
-          <a href="https://share.hsforms.com/1ztQdTUYBT_SnsqmGr19V1w5irbi"
+          <a href="https://share.hsforms.com/1s6SQyVsNT8akL0pFAIWc8A5irbi"
              class=" btn-primary btn">Get
             ticket</a>
         </div>
@@ -112,7 +112,7 @@ export default {
   data() {
     return {
       jciMember: true,
-      memberPrices: [140, 250, 400],
+      memberPrices: [180, 250, 400],
       features:
           [
             "Gala Cocktail entrance",
