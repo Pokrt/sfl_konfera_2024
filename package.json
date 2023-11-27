@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "daisyui": "^2.47.0",
+    "daisyui": "^4.4.10",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },

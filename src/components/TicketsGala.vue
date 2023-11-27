@@ -8,7 +8,7 @@
       <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
 
         <div
-            class="flex flex-col col-start-1 p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg   shadow  xl:p-8">
+            class="flex flex-col col-start-1 p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg  border border-gray-100 shadow  xl:p-8">
           <h3 class="mb-4 text-2xl font-semibold">Regular ticket</h3>
           <!--          <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next-->
           <!--            project.</p>-->
@@ -34,7 +34,7 @@
         </div>
 
         <div
-            class="flex flex-col p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg  shadow  xl:p-8">
+            class="flex flex-col p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg  shadow border border-gray-100 xl:p-8">
           <h3 class="mb-4 text-2xl font-semibold">VIP Ticket SINGLE</h3>
           <!--          <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next-->
           <!--            project.</p>-->
@@ -71,7 +71,7 @@
 
 
         <div
-            class="flex flex-col p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg  shadow  xl:p-8">
+            class="flex flex-col p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg  border border-gray-100 shadow  xl:p-8">
           <h3 class="mb-4 text-2xl font-semibold">VIP Ticket DOUBLE</h3>
           <div class="flex justify-center items-baseline my-8">
             <span class="mr-2 text-5xl font-extrabold">€{{ prices[2] }} </span>
