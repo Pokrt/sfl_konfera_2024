@@ -1,41 +1,65 @@
 <template>
   <div class="z-10 navbar bg-base-100  fixed ">
     <div class="navbar-start">
-      <details  class="dropdown">
-        <summary tabindex="0" role="button" class="btn btn-ghost ">
+      <details class="dropdown">
+        <summary tabindex="0" role="button" class="btn btn-ghost lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"/>
           </svg>
         </summary>
-        <ul class="menu menu-sm dropdown-content mt-3 z-20 p-2 shadow bg-base-100 rounded-box w-52">
-          <li class="z-30"><router-link to="./#about">Aboutt</router-link></li>
-          <li class="z-30"><a href="./#about">Abouttt</a></li>
-          <li><a href="./#about">Abouttt</a></li>
+        <ul class="menu menu-sm dropdown-content mt-3 z-20 p-2 shadow bg-base-100 rounded-box w-52 ">
           <li>
-            <router-link to="/#tickets">Tickets</router-link>
-            <ul class="p-2">
-              <li class="z-30"><router-link to="/#tickets">Standard tickets</router-link></li>
-              <li><router-link to="/#tickets_gala">Gala tickets</router-link></li>
-            </ul>
+            <router-link to="./#about">About</router-link>
           </li>
-          <li><router-link to="/#contact">Contact</router-link></li>
+          <li>
+            <details v-click-outside="subNavbarHide">
+              <summary class="dropdown">Tickets</summary>
+              <ul class="p-2">
+                <li>
+                  <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
+                               to="#tickets">Standard tickets
+                  </router-link>
+                </li>
+                <li>
+                  <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
+                               to="#tickets_gala">Gala tickets
+                  </router-link>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <router-link to="/#contact">Contact</router-link>
+          </li>
         </ul>
-      </details >
+      </details>
       <a href="#" class="btn btn-ghost"><img class="h-full px-0" src="/favicon.svg"></a>
     </div>
-    <div class="navbar-center  lg:flex  ">
+    <div class="navbar-center hidden lg:flex ">
       <ul class="menu menu-horizontal px-1">
-        <li><router-link to="/#about">About</router-link></li>
+        <li>
+          <router-link to="/#about">About</router-link>
+        </li>
         <li>
           <details v-click-outside="subNavbarHide">
             <summary>Tickets</summary>
             <ul class="p-2">
-              <li><router-link  @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="#tickets">Standard tickets</router-link></li>
-              <li><router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="#tickets_gala">Gala tickets</router-link></li>
+              <li>
+                <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
+                             to="#tickets">Standard tickets
+                </router-link>
+              </li>
+              <li>
+                <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
+                             to="#tickets_gala">Gala tickets
+                </router-link>
+              </li>
             </ul>
           </details>
         </li>
-        <li><router-link to="/#contact">Contact</router-link></li>
+        <li>
+          <router-link to="/#contact">Contact</router-link>
+        </li>
       </ul>
     </div>
     <div class="navbar-end ">
