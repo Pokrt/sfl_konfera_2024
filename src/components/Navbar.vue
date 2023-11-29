@@ -9,19 +9,19 @@
         </summary>
         <ul class="menu menu-sm dropdown-content mt-3 z-20 p-2 shadow bg-base-100 rounded-box w-52 ">
           <li>
-            <router-link to="./#about">About</router-link>
+            <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="./#about">About</router-link>
           </li>
           <li>
             <details v-click-outside="subNavbarHide">
               <summary class="dropdown">Tickets</summary>
               <ul class="p-2">
                 <li>
-                  <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
+                  <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement)"
                                to="#tickets">Standard tickets
                   </router-link>
                 </li>
                 <li>
-                  <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
+                  <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement)"
                                to="#tickets_gala">Gala tickets
                   </router-link>
                 </li>
@@ -29,7 +29,7 @@
             </details>
           </li>
           <li>
-            <router-link to="/#contact">Contact</router-link>
+            <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="/#contact">Contact</router-link>
           </li>
         </ul>
       </details>
