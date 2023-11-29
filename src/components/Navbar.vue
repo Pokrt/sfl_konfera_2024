@@ -8,13 +8,13 @@
           </svg>
         </div>
         <ul class="menu menu-sm dropdown-content mt-3 z-20 p-2 shadow bg-base-100 rounded-box w-52">
-          <li><router-link to="./#about">Aboutt</router-link></li>
-          <li><a href="./#about">Abouttt</a></li>
+          <li class="z-30"><router-link to="./#about">Aboutt</router-link></li>
+          <li class="z-30"><a href="./#about">Abouttt</a></li>
           <li><a href="./#about">Abouttt</a></li>
           <li>
             <router-link to="/#tickets">Tickets</router-link>
             <ul class="p-2">
-              <li><router-link to="/#tickets">Standard tickets</router-link></li>
+              <li class="z-30"><router-link to="/#tickets">Standard tickets</router-link></li>
               <li><router-link to="/#tickets_gala">Gala tickets</router-link></li>
             </ul>
           </li>
