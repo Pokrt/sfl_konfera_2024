@@ -8,22 +8,22 @@
           </svg>
         </div>
         <ul class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a href="#about">About</a></li>
+          <li><a href="/#about">About</a></li>
           <li>
-            <a href="#tickets">Tickets</a>
+            <a href="/#tickets">Tickets</a>
             <ul class="p-2">
-              <li><a href="#tickets">Standard tickets</a></li>
-              <li><a href="#tickets_gala">Gala tickets</a></li>
+              <li><a href="/#tickets">Standard tickets</a></li>
+              <li><a href="/#tickets_gala">Gala tickets</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/#contact">Contact</a></li>
         </ul>
       </div>
       <a href="#" class="btn btn-ghost"><img class="h-full px-0" src="/favicon.svg"></a>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><router-link to="#about">About</router-link></li>
+        <li><router-link to="/#about">About</router-link></li>
         <li>
           <details v-click-outside="subNavbarHide">
             <summary>Tickets</summary>
@@ -33,7 +33,7 @@
             </ul>
           </details>
         </li>
-        <li><router-link to="#contact">Contact</router-link></li>
+        <li><router-link to="/#contact">Contact</router-link></li>
       </ul>
     </div>
     <div class="navbar-end ">
