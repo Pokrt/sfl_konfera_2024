@@ -29,36 +29,41 @@
             </details>
           </li>
           <li>
+            <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="/#partners">Partners</router-link>
+          </li> <li>
             <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="/#contact">Contact</router-link>
           </li>
         </ul>
       </details>
       <a href="#" class="btn btn-ghost"><img class="h-full px-0" src="/favicon.svg"></a>
     </div>
+
     <div class="navbar-center hidden lg:flex ">
       <ul class="menu menu-horizontal px-1">
         <li>
-          <router-link to="/#about">About</router-link>
+          <router-link class="text-xl" to="/#about">About</router-link>
         </li>
         <li>
           <details v-click-outside="subNavbarHide">
-            <summary>Tickets</summary>
+            <summary class="text-xl">Tickets</summary>
             <ul class="p-2">
               <li>
                 <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
-                             to="#tickets">Standard tickets
+                             class="text-xl" to="#tickets">Standard tickets
                 </router-link>
               </li>
               <li>
                 <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
-                             to="#tickets_gala">Gala tickets
+                             class="text-xl" to="#tickets_gala">Gala tickets
                 </router-link>
               </li>
             </ul>
           </details>
         </li>
         <li>
-          <router-link to="/#contact">Contact</router-link>
+          <router-link class="text-xl" to="/#partners">Partners</router-link>
+        </li>        <li>
+          <router-link class="text-xl" to="/#contact">Contact</router-link>
         </li>
       </ul>
     </div>
