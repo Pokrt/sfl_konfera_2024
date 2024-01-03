@@ -29,6 +29,8 @@
             </details>
           </li>
           <li>
+            <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="/#team">Team</router-link>
+          </li><li>
             <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="/#partners">Partners</router-link>
           </li> <li>
             <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="/#contact">Contact</router-link>
@@ -61,6 +63,8 @@
           </details>
         </li>
         <li>
+          <router-link class="text-xl" to="/#team">Team</router-link>
+        </li>    <li>
           <router-link class="text-xl" to="/#partners">Partners</router-link>
         </li>        <li>
           <router-link class="text-xl" to="/#contact">Contact</router-link>
