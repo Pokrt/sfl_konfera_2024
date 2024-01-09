@@ -18,7 +18,7 @@
       </div>
     </div>
   </div>
-  <div class="my-16  flex place-content-center mx-5 lg:mx-auto text-justify">
+  <div id="about" class="my-16  flex place-content-center mx-5 lg:mx-auto text-justify">
     <div class="stats stats-vertical lg:stats-horizontal">
 
       <div class="stat">
