@@ -18,14 +18,32 @@
       </div>
     </div>
   </div>
+  <div class="my-16  flex place-content-center mx-5 lg:mx-auto text-justify">
+    <div class="stats stats-vertical lg:stats-horizontal">
 
+      <div class="stat">
+        <div class="stat-title text-neutral">Location</div>
+        <div class="stat-value text-neutral">Prague</div>
+        <div class="stat-desc mt-1 text-neutral">Czech Republic</div>
+      </div>
 
-  <div class="mt-16 mb-36 flex place-content-center lg:mx-auto mx-5 text-justify">
-    <div class="prose lg:prose-xl text-white prose-headings:text-primary">
-      <h1 class="text-center" id="about">About</h1>
-      <h3 class="text-center">8. - 11. February 2024</h3>
-      <h3 class="text-center">Prague, CZ</h3>
-      <h4 class="text-center">Gala Cocktail 10. February 2024</h4>
+      <div class="stat">
+        <div class="stat-title text-primary">Event date</div>
+        <div class="stat-value text-primary">8. - 11. February</div>
+        <div class="stat-desc text-primary">2024</div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-title ">Gala Cocktail</div>
+        <div class="stat-value ">10. February</div>
+        <div class="stat-desc "> 7:00 PM</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class=" mb-36 flex place-content-center lg:mx-auto mx-5 text-justify">
+    <div class="prose lg:prose-xl text-info prose-headings:text-primary">
       <p>Welcome to the official website of JCI EPM 2024 in Prague!</p>
       <p>JCI (Junior Chamber International) is a worldwide organization bringing together young active individuals
         who strive to develop their leadership skills and create positive change in their communities. The JCI
@@ -68,9 +86,9 @@
   </div>
 
   <div class="divider"></div>
-  <Organizers />
+  <Organizers/>
   <div class="divider"></div>
-    <Partners />
+  <Partners/>
   <div class="divider"></div>
   <div class="mt-16 mb-36 flex place-content-center lg:mx-auto mx-5 text-justify">
     <div id="contact" class="mt-10 mb-10 prose lg:prose-xl text-white prose-headings:text-neutral">

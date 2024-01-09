@@ -18,7 +18,7 @@
         <!--        </div>-->
 
         <div
-            class="flex flex-col col-start-1 p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg border border-gray-100 shadow  xl:p-8">
+            class=" flex-col col-start-1 p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg border border-gray-100 shadow  xl:p-8 hidden lg:flex">
           <h3 class="mb-4 text-2xl font-semibold">Early Bird</h3>
           <!--          <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next-->
           <!--            project.</p>-->
@@ -42,7 +42,7 @@
         </div>
 
         <div
-            class="flex flex-col p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg border border-gray-100 shadow  xl:p-8">
+            class=" flex-col p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg border border-gray-100 shadow  xl:p-8 hidden lg:flex">
           <h3 class="mb-4 text-2xl font-semibold">Regular Bird</h3>
           <!--          <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next-->
           <!--            project.</p>-->
