@@ -11,7 +11,7 @@
                                             alt="JCI EPM 2024 logo">
         </div>
         <div class=" items-center self-center ">
-          <p class="text-white pb-2">Regular tickets are still available for</p>
+          <p class="text-white pb-2">Event starts in</p>
           <Countdown/>
         </div>
 
