@@ -31,7 +31,7 @@
             </ul>
           </div>
 
-          <a href="https://share.hsforms.com/1s6SQyVsNT8akL0pFAIWc8A5irbi"
+          <a href="https://share.hsforms.com/1gcHRIJpoTnWdFLDtrO6S8A5irbi"
              class=" btn-primary btn xl:self-end ">Get ticket</a>
         </div>
         <div
@@ -66,7 +66,9 @@
               <span>{{ item }}</span>
             </li>
           </ul>
-
+ <a href="https://share.hsforms.com/1gcHRIJpoTnWdFLDtrO6S8A5irbi"
+             class=" btn-primary btn">Get
+            ticket</a>
         </div>
 
 
