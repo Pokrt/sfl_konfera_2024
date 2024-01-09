@@ -63,9 +63,7 @@
               <span>{{ item }}</span>
             </li>
           </ul>
-          <a href="https://share.hsforms.com/13BK_D0FHSQ6XmSccxuvJfw5irbi"
-             class=" btn-primary btn">Get
-            started</a>
+
 
         </div>
 
@@ -92,6 +90,9 @@
               <span>{{ item }}</span>
             </li>
           </ul>
+           <a href="https://share.hsforms.com/1y_NTmREWQ8akIKohI8XkXg5irbi"
+             class=" btn-primary btn">Get
+            started</a>
         </div>
 
         <div class="alert flex flex-col col-span-3 border border-gray-100 shadow ">
