@@ -9,7 +9,7 @@
         <div class="grid p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg  border border-gray-100 shadow  xl:p-8">
           <div
               class="flex flex-col col-start-1 ">
-            <h3 class="mb-4 text-2xl font-semibold">Regular ticket</h3>
+            <h3 class="mb-4 text-2xl font-semibold">Late ticket</h3>
             <!--          <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next-->
             <!--            project.</p>-->
             <div class="flex justify-center items-baseline my-8">
@@ -114,7 +114,7 @@ export default {
   data() {
     return {
       jciMember: true,
-      memberPrices: [180, 250, 400],
+      memberPrices: [200, 250, 400],
       features:
           [
             "Gala Cocktail entrance",
