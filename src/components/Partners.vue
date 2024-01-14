@@ -45,7 +45,7 @@
           </a>
         </div>
       </div>
-      <div class="card w-full lg:w-96 bg-base-300 p-10  grid justify-items-center  card-bordered  ">
+      <div class="card w-full lg:w-96 bg-base-300 p-10  grid justify-items-center  card-bordered">
         <figure class="lg:mt-5 w-7/12"><img src="/kepler_logo.svg" alt="dare2"/></figure>
         <div class="card-actions justify-end mt-10 self-end ">
           <a href="https://gjk.cz/" class="btn btn-outline btn-neutral btn-square flex align-middle ">
