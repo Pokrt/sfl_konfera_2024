@@ -73,7 +73,42 @@
         </div>
       </div>
 
+      <div class="card w-full lg:w-96 bg-base-300 p-10  grid justify-items-center  card-bordered  ">
+        <figure class="lg:mt-5 w-7/12 "><img src="/wealth_academy.svg" alt="wealth academy"/></figure>
+        <div class="card-actions justify-end mt-10 self-end border-primary">
+          <a href="https://www.roman-jasenovec.cz/rj-wealth-academy/"
+             class="btn btn-outline btn-neutral btn-square flex align-middle ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="h-6 w-6"
+                 stroke="currentColor">
+              <path
+                  d="m14.523 18.787s4.501-4.505 6.255-6.26c.146-.146.219-.338.219-.53s-.073-.383-.219-.53c-1.753-1.754-6.255-6.258-6.255-6.258-.144-.145-.334-.217-.524-.217-.193 0-.385.074-.532.221-.293.292-.295.766-.004 1.056l4.978 4.978h-14.692c-.414 0-.75.336-.75.75s.336.75.75.75h14.692l-4.979 4.979c-.289.289-.286.762.006 1.054.148.148.341.222.533.222.19 0 .378-.072.522-.215z"
+                  fill="currentColor"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
 
     </div>
   </div>
+
+  <div class="my-8 flex place-content-center lg:mx-auto mx-5 text-justify">
+    <div class="prose lg:prose-xl text-white prose-headings:text-neutral">
+      <h2 id="" class="text-center">Patronage of the President of the Senate of the Czech Republic</h2>
+    </div>
+  </div>
+  <div class=" py-8 px-4 mx-auto max-w-screen-xl  lg:px-6">
+    <div class="space-y-8 grid grid-cols-1  lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0  place-content-evenly ">
+      <div class="card w-full lg:w-96 bg-base-300 p-10 lg:col-start-2  grid justify-items-center  card-bordered  ">
+        <figure class="w-full"><img src="/senat_logo.svg" alt="belis"/></figure>
+        <div class="card-actions justify-end mt-10 self-end border-primary">
+          <a href="/20240115_certifikat_.pdf"
+             class="btn btn-outline btn-neutral flex align-middle "> Official document
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
+<script setup>
+</script>
