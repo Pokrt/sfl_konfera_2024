@@ -114,7 +114,6 @@ export default {
       features:
           ["Accommodation (3 nights - double room)",
             "Breakfasts (3)",
-            "Airport transfer to hotel (only for arrival on 8th of February and departure on 11th of February)",
             "Lunches (2)",
             "3x dinners",
             "Gala cocktail",
