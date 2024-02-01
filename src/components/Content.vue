@@ -76,6 +76,8 @@
           </p>
         </li>
       </ul>
+      <h3 class="text-center">Other info</h3>
+      <h4 class="text-center text-primary"><a href="https://docs.google.com/document/d/e/2PACX-1vQvJcXgfqyPD6ICnIDWnU5Dk1eZW8pNsRgni0uuK4mssPco1puzQ-Fgh7vG1A9uCdA6jsGiXpz_u3GY/pub">How to get to hotel and other information (food, drinks and dresscode)</a></h4>
     </div>
   </div>
   <div id="tickets">
