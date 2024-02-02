@@ -19,9 +19,9 @@
         </div>
       </div>
       <div class="card w-full lg:w-96 bg-base-300 p-10  grid justify-items-center  card-bordered  ">
-        <figure><img src="/arad1epm.svg" alt="Arad"/></figure>
+        <figure><img class="w-40 m-5" src="/g8.svg" alt="Mauritz Legal"/></figure>
         <div class="card-actions justify-end mt-10 self-end ">
-          <a href="https://www.arad.cz/" class="btn btn-outline btn-neutral btn-square ">
+          <a href="https://mauritz.legal" class="btn btn-outline btn-neutral btn-square ">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="w-full h-full"
                  stroke-linejoin="round" stroke="currentColor">
               <path
@@ -100,7 +100,7 @@
   <div class=" py-8 px-4 mx-auto max-w-screen-xl  lg:px-6">
     <div class="space-y-8 grid grid-cols-1  lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0  place-content-evenly ">
       <div class="card w-full lg:w-96 bg-base-300 p-10 lg:col-start-2  grid justify-items-center  card-bordered  ">
-        <figure class="w-full"><img src="/senat_logo.svg" alt="belis"/></figure>
+        <figure class="w-full"><img class="w-full" src="/senat_logo.svg" alt="senat"/></figure>
         <div class="card-actions justify-end mt-10 self-end border-primary">
           <a href="/20240115_certifikat_.pdf"
              class="btn btn-outline btn-neutral flex align-middle "> Official document
