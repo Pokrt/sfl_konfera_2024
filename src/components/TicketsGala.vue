@@ -114,7 +114,7 @@ export default {
   data() {
     return {
       jciMember: true,
-      memberPrices: [200, 250, 400],
+      memberPrices: [200, 250, 450],
       features:
           [
             "Gala Cocktail entrance",
