@@ -56,7 +56,8 @@
       <p>As a JCI member, attending JCI EPM 2024 in Prague is an opportunity to expand your network, enhance your
         leadership skills, and experience the beauty of a historic European city. We invite you to join us and
         be a part of this unforgettable event!</p>
-
+      <h3 class="text-center">Program</h3>
+      <p class="text-center"><a class="btn btn-primary" href="/program.pdf">Open</a></p>
       <h3 class="text-center">Venues</h3>
       <ul>
         <li>
@@ -64,6 +65,14 @@
             Castle</a></h4>
           <p>Jiřská 3, 119 00 Prague 1 <a
               href="https://www.google.com/maps?q=lobkowicz+palace&safe=active&ssui=on&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiauJqGtYjqAhWoSEEAHUTXD7kQ_AUoAnoECCMQBA">Map</a>
+          </p>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h4><a class="text-primary" href="https://gjk.cz/">Gymnázium Jana Keplera</a></h4>
+          <p>Parléřova 118, 169 00 Praha 6-Hradčany <a
+              href="https://maps.app.goo.gl/JprQeTPhnbvXMue7A">Map</a>
           </p>
         </li>
       </ul>
@@ -77,8 +86,9 @@
         </li>
       </ul>
       <h3 id="info" class="text-center">Other info</h3>
-      <h4 class="text-center text-primary"><a href="https://docs.google.com/document/d/e/2PACX-1vQvJcXgfqyPD6ICnIDWnU5Dk1eZW8pNsRgni0uuK4mssPco1puzQ-Fgh7vG1A9uCdA6jsGiXpz_u3GY/pub">How to get to hotel and other information (food, drinks and dresscode)</a></h4>
-          <h4 class="text-center text-primary"><a href="program.pdf">Schedule</a></h4>
+      <h4 class="text-center text-primary"><a
+          href="https://docs.google.com/document/d/e/2PACX-1vQvJcXgfqyPD6ICnIDWnU5Dk1eZW8pNsRgni0uuK4mssPco1puzQ-Fgh7vG1A9uCdA6jsGiXpz_u3GY/pub">How
+        to get to hotel and other information (food, drinks and dresscode)</a></h4>
     </div>
   </div>
   <div id="tickets">
