@@ -53,7 +53,7 @@
         Prague is known for its stunning architecture, rich history, and vibrant culture. The event will take
         place from February 8th to February 11th and will feature exciting keynote speakers, interactive
         workshops, and social events.</p>
-      <p>As a JCI member, attending JCI EPM 2024 in Prague is an opportunity to expand your network, enhance your
+      <p id="info">As a JCI member, attending JCI EPM 2024 in Prague is an opportunity to expand your network, enhance your
         leadership skills, and experience the beauty of a historic European city. We invite you to join us and
         be a part of this unforgettable event!</p>
       <h3 class="text-center">Program</h3>
@@ -85,7 +85,7 @@
           </p>
         </li>
       </ul>
-      <h3 id="info" class="text-center">Other info</h3>
+      <h3  class="text-center">Other info</h3>
       <h4 class="text-center text-primary"><a
           href="https://docs.google.com/document/d/e/2PACX-1vQvJcXgfqyPD6ICnIDWnU5Dk1eZW8pNsRgni0uuK4mssPco1puzQ-Fgh7vG1A9uCdA6jsGiXpz_u3GY/pub">How
         to get to hotel and other information (food, drinks and dresscode)</a></h4>
