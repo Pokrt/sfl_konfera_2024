@@ -32,7 +32,7 @@
           </div>
 
           <a href="https://share.hsforms.com/1gcHRIJpoTnWdFLDtrO6S8A5irbi"
-             class=" btn-primary btn xl:self-end ">Get ticket</a>
+             class=" btn-primary btn xl:self-end btn-disabled">Get ticket</a>
         </div>
         <div
             class="flex flex-col p-6 mx-auto max-w-lg text-center text-white bg-base-100 rounded-lg  shadow border border-gray-100 xl:p-8">
@@ -67,7 +67,7 @@
             </li>
           </ul>
  <a href="https://share.hsforms.com/1gcHRIJpoTnWdFLDtrO6S8A5irbi"
-             class=" btn-primary btn">Get
+             class=" btn-primary btn btn-disabled">Get
             ticket</a>
         </div>
 
@@ -101,7 +101,7 @@
 
           </ul>
           <a href="https://share.hsforms.com/1gcHRIJpoTnWdFLDtrO6S8A5irbi"
-             class=" btn-primary btn">Get
+             class=" btn-primary btn btn-disabled">Get
             ticket</a>
         </div>
       </div>

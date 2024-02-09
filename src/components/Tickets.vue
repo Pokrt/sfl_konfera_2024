@@ -91,7 +91,7 @@
             </li>
           </ul>
            <a href="https://share.hsforms.com/1y_NTmREWQ8akIKohI8XkXg5irbi"
-             class=" btn-primary btn">Get
+             class=" btn-primary btn btn-disabled">Get
             started</a>
         </div>
 
