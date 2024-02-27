@@ -91,12 +91,12 @@
         to get to hotel and other information (food, drinks and dresscode)</a></h4>
     </div>
   </div>
-  <div id="tickets">
-    <Tickets/>
-  </div>
-  <div id="tickets_gala">
-    <TicketsGala/>
-  </div>
+<!--  <div id="tickets">-->
+<!--    <Tickets/>-->
+<!--  </div>-->
+<!--  <div id="tickets_gala">-->
+<!--    <TicketsGala/>-->
+<!--  </div>-->
 
   <div class="divider"></div>
   <Organizers/>

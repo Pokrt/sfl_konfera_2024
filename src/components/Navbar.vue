@@ -18,25 +18,25 @@
               Program
             </router-link>
           </li>
-          <li>
-            <details v-click-outside="subNavbarHide">
-              <summary class="dropdown">Tickets</summary>
-              <ul class="p-2">
-                <li>
-                  <router-link
-                      @click="subNavbarHide($event.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement)"
-                      to="#tickets">Standard tickets
-                  </router-link>
-                </li>
-                <li>
-                  <router-link
-                      @click="subNavbarHide($event.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement)"
-                      to="#tickets_gala">Gala tickets
-                  </router-link>
-                </li>
-              </ul>
-            </details>
-          </li>
+<!--          <li>-->
+<!--            <details v-click-outside="subNavbarHide">-->
+<!--              <summary class="dropdown">Tickets</summary>-->
+<!--              <ul class="p-2">-->
+<!--                <li>-->
+<!--                  <router-link-->
+<!--                      @click="subNavbarHide($event.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement)"-->
+<!--                      to="#tickets">Standard tickets-->
+<!--                  </router-link>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                  <router-link-->
+<!--                      @click="subNavbarHide($event.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement)"-->
+<!--                      to="#tickets_gala">Gala tickets-->
+<!--                  </router-link>-->
+<!--                </li>-->
+<!--              </ul>-->
+<!--            </details>-->
+<!--          </li>-->
           <li>
             <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="/#team">
               Team
@@ -65,23 +65,23 @@
         <li>
           <router-link class="text-xl" to="/#info">Program</router-link>
         </li>
-        <li>
-          <details v-click-outside="subNavbarHide">
-            <summary class="text-xl">Tickets</summary>
-            <ul class="p-2">
-              <li>
-                <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
-                             class="text-xl" to="#tickets">Standard tickets
-                </router-link>
-              </li>
-              <li>
-                <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
-                             class="text-xl" to="#tickets_gala">Gala tickets
-                </router-link>
-              </li>
-            </ul>
-          </details>
-        </li>
+<!--        <li>-->
+<!--          <details v-click-outside="subNavbarHide">-->
+<!--            <summary class="text-xl">Tickets</summary>-->
+<!--            <ul class="p-2">-->
+<!--              <li>-->
+<!--                <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"-->
+<!--                             class="text-xl" to="#tickets">Standard tickets-->
+<!--                </router-link>-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"-->
+<!--                             class="text-xl" to="#tickets_gala">Gala tickets-->
+<!--                </router-link>-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </details>-->
+<!--        </li>-->
         <li>
           <router-link class="text-xl" to="/#team">Team</router-link>
         </li>
