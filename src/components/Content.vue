@@ -6,8 +6,8 @@
 
       <div class=" ">
         <!--        <h1 class="mb-5 text-5xl font-bold text-white">INSPIRED 2 CARE</h1>-->
-        <div class="flex items-center w-full">
-          <span class="font-burra text-9xl  font-bold text-secondary ">Zfetujme se</span>
+        <div class="flex items-center w-full ">
+          <h1 class="font-burra text-4xl xl:text-9xl w-full font-bold text-secondary">Legalizujme</h1>
         </div>
         <div class="mt-20 items-center self-center ">
           <p class="text-secondary pb-2">Event starts in</p>
