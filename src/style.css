@@ -7,86 +7,86 @@
     @font-face {
         font-family: 'Burra';
         font-weight: bold;
-        src: url(/Burra-Font-Family/Burra-Bold.ttf);
+        src: url(/Burra-Font-Family/Burra-Bold.ttf) format("truetype"); ;
     }
     @font-face {
         font-family: 'Burra';
         font-weight: bold;
         font-stretch: condensed;
-        src: url(/Burra-Font-Family/Burra-BoldCondensed.ttf);
+        src: url(/Burra-Font-Family/Burra-BoldCondensed.ttf) format("truetype"); ;
     }
     @font-face {
         font-family: 'Burra';
         font-weight: bold;
         font-stretch: expanded;
-        src: url(/Burra-Font-Family/Burra-BoldExpanded.ttf);
+        src: url(/Burra-Font-Family/Burra-BoldExpanded.ttf) format("truetype"); ;
     }
     @font-face {
         font-family: 'Burra';
-        font-weight: light;
-        src: url(/Burra-Font-Family/Burra-Light.ttf);
+        font-weight: 300;
+        src: url(/Burra-Font-Family/Burra-Light.ttf) format("truetype"); ;
     }
     @font-face {
         font-family: 'Burra';
-        font-weight: light;
+        font-weight: 300;
         font-stretch: condensed;
-        src: url(/Burra-Font-Family/Burra-LightCondensed.ttf);
+        src: url(/Burra-Font-Family/Burra-LightCondensed.ttf) format("truetype"); ;
     }
     @font-face {
         font-family: 'Burra';
-        font-weight: light;
+        font-weight: 300;
         font-stretch: expanded;
-        src: url(/Burra-Font-Family/Burra-LightExpanded.ttf);
+        src: url(/Burra-Font-Family/Burra-LightExpanded.ttf) format("truetype");
     }
     @font-face {
         font-family: 'Burra';
         font-weight: 500;
-        src: url(/Burra-Font-Family/Burra-Medium.ttf);
+        src: url(/Burra-Font-Family/Burra-Medium.ttf) format("truetype");
     }
     @font-face {
         font-family: 'Burra';
         font-weight: 500;
         font-stretch: condensed;
-        src: url(/Burra-Font-Family/Burra-MediumCondensed.ttf);
+        src: url(/Burra-Font-Family/Burra-MediumCondensed.ttf) format("truetype");
     }
     @font-face {
         font-family: 'Burra';
         font-weight: 500;
         font-stretch: expanded;
-        src: url(/Burra-Font-Family/Burra-MediumExpanded.ttf);
+        src: url(/Burra-Font-Family/Burra-MediumExpanded.ttf) format("truetype");
     }
     @font-face {
         font-family: 'Burra';
         font-weight: normal;
-        src: url(/Burra-Font-Family/Burra-Regular.ttf);
+        src: url(/Burra-Font-Family/Burra-Regular.ttf) format("truetype");
     }
     @font-face {
         font-family: 'Burra';
         font-weight: normal;
         font-stretch: condensed;
-        src: url(/Burra-Font-Family/Burra-RegularCondensed.ttf);
+        src: url(/Burra-Font-Family/Burra-RegularCondensed.ttf) format("truetype");
     }
     @font-face {
         font-family: 'Burra';
         font-weight: normal;
         font-stretch: expanded;
-        src: url(/Burra-Font-Family/Burra-RegularExpanded.ttf);
+        src: url(/Burra-Font-Family/Burra-RegularExpanded.ttf) format("truetype");
     }
     @font-face {
         font-family: 'Burra';
         font-weight: 100;
-        src: url(/Burra-Font-Family/Burra-Thin.ttf);
+        src: url(/Burra-Font-Family/Burra-Thin.ttf) format("truetype");
     }
     @font-face {
         font-family: 'Burra';
         font-weight: 100;
         font-stretch: condensed;
-        src: url(/Burra-Font-Family/Burra-ThinCondensed.ttf);
+        src: url(/Burra-Font-Family/Burra-ThinCondensed.ttf) format("truetype");
     }
     @font-face {
         font-family: 'Burra';
         font-weight: 100;
         font-stretch: expanded;
-        src: url(/Burra-Font-Family/Burra-ThinExpanded.ttf);
+        src: url(/Burra-Font-Family/Burra-ThinExpanded.ttf) format("truetype");
     }
 }
