@@ -1,3 +1,92 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: 'Burra';
+        font-weight: bold;
+        src: url(/Burra-Font-Family/Burra-Bold.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: bold;
+        font-stretch: condensed;
+        src: url(/Burra-Font-Family/Burra-BoldCondensed.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: bold;
+        font-stretch: expanded;
+        src: url(/Burra-Font-Family/Burra-BoldExpanded.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: light;
+        src: url(/Burra-Font-Family/Burra-Light.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: light;
+        font-stretch: condensed;
+        src: url(/Burra-Font-Family/Burra-LightCondensed.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: light;
+        font-stretch: expanded;
+        src: url(/Burra-Font-Family/Burra-LightExpanded.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: 500;
+        src: url(/Burra-Font-Family/Burra-Medium.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: 500;
+        font-stretch: condensed;
+        src: url(/Burra-Font-Family/Burra-MediumCondensed.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: 500;
+        font-stretch: expanded;
+        src: url(/Burra-Font-Family/Burra-MediumExpanded.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: normal;
+        src: url(/Burra-Font-Family/Burra-Regular.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: normal;
+        font-stretch: condensed;
+        src: url(/Burra-Font-Family/Burra-RegularCondensed.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: normal;
+        font-stretch: expanded;
+        src: url(/Burra-Font-Family/Burra-RegularExpanded.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: 100;
+        src: url(/Burra-Font-Family/Burra-Thin.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: 100;
+        font-stretch: condensed;
+        src: url(/Burra-Font-Family/Burra-ThinCondensed.ttf);
+    }
+    @font-face {
+        font-family: 'Burra';
+        font-weight: 100;
+        font-stretch: expanded;
+        src: url(/Burra-Font-Family/Burra-ThinExpanded.ttf);
+    }
+}

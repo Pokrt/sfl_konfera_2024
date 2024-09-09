@@ -6,16 +6,19 @@ module.exports = {
     ],
     theme: {
         extend: {},
+        fontFamily: {
+            burra: ["Burra"],
+        }
     },
     daisyui: {
         themes: [
             {
                 mytheme: {
-                    "primary": "#EDBE38",
-                    "secondary": "#3A67B1",
-                    "accent": "#0097D7",
-                    "neutral": "#56BDA3",
-                    "base-100": "#0A0F29",
+                    "primary": "#000000",
+                    "secondary": "#ddff89",
+                    "accent": "#06d9c4",
+                    "neutral": "#bf07f2",
+                    "base-100": "#ffffff",
                     "info": "#73D2F2",
                     "success": "#0D6351",
                     "warning": "#EDC35A",
