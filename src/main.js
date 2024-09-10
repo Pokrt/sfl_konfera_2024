@@ -6,7 +6,7 @@ import Content from "./components/Content.vue";
 
 const router = createRouter({
     history: createWebHistory(),
-    routes: [{path: '/', name:"EPM 2024", component: Content}],
+    routes: [{path: '/', name:"Legalizujme", component: Content}],
     scrollBehavior(to, from, savedPosition) {
         if (to.hash) {
             return {

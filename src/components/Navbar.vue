@@ -54,7 +54,7 @@
           </li>
         </ul>
       </details>
-      <a href="#" class="btn btn-ghost"><img class="h-full px-0" src="/favicon.svg"></a>
+      <router-link class="font-burra text-3xl xl:text-5xl w-full font-bold text-neutral" to="" >Legalizujme</router-link>
     </div>
 
     <div class="navbar-center hidden lg:flex ">
