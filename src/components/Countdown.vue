@@ -2,26 +2,26 @@
   <div class="">
     <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-center">
       <div class="flex flex-col rounded-box text-neutral  bg-secondary flex-col p-2">
-        <span class="font-bold countdown font-mono text-5xl">
+        <span class="font-bold countdown font-mono text-3xl">
           <span v-if="days > 99">{{ Math.floor(days / 100).toFixed(0) }}</span>
           <span :style="'--value:' + this.days % 100 + ';'"></span>
         </span>
-        days
+        dní
       </div>
       <div class="flex flex-col rounded-box text-neutral  bg-secondary flex-col p-2">
-        <span class="font-bold  countdown font-mono text-5xl">
+        <span class="font-bold  countdown font-mono text-3xl">
           <span :style="'--value:' + this.hours % 100 + ';'"></span>
         </span>
-        hours
+        hod
       </div>
       <div class="flex flex-col rounded-box text-neutral  bg-secondary flex-col p-2">
-        <span class="font-bold countdown font-mono text-5xl">
+        <span class="font-bold countdown font-mono text-3xl">
           <span :style="'--value:' + this.minutes % 100 + ';'"></span>
         </span>
         min
       </div>
       <div class="flex flex-col rounded-box text-neutral  bg-secondary flex-col p-2">
-        <span class="font-bold countdown font-mono text-5xl">
+        <span class="font-bold countdown font-mono text-3xl">
           <span :style="'--value:' + this.seconds % 100 + ';'"></span>
         </span>
         sec
