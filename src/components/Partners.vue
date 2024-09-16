@@ -7,8 +7,9 @@
 
     <div class="grid grid-cols-1 lg:flex gap-4 lg:gap-8 flex-auto justify-center">
       <a v-for="partner in partners" :href="partner.url"
-         class="card  grid justify-items-center    ">
-        <figure><img class="object-contain" :class="partner.class" :src="partner.logo" :alt="partner.name"/>
+         class="card    justify-items-center grid   ">
+        <figure><img class="object-contain  lg:mb-0
+" :class="partner.class" :src="partner.logo" :alt="partner.name"/>
         </figure>
       </a>
 
@@ -24,19 +25,19 @@ const partners = ref([{
   name: 'Magazín konopí',
   url: 'https://magazin-konopi.cz/',
   logo: '/konopi.svg',
-  class: ' w-60'
+  class: ' w-60 '
 },
   {
     name: 'Czeched Substance',
     url: 'https://czsub.cz/',
     logo: '/czsub.svg',
-    class: 'h-24 w-60'
+    class: 'h-24 w-60 mb-20 pr-4 lg:mb-0'
 
   }, {
     name: 'Česká psychedelická společnost',
     url: 'https://czeps.org/',
     logo: '/czeps.svg',
-    class: ' w-60'
+    class: ' w-60 mb-20 lg:mb-0'
 
   },
 
