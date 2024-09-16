@@ -55,12 +55,12 @@
   <!--  </div>-->
 
   <!--  <div class="divider"></div>-->
-  <!--  <div class="prose-h1:font-burra">-->
+    <div class="prose-h1:font-burra">
 
 
   <!--    <Organizers/>-->
   <!--    <div class="divider"></div>-->
-  <!--    <Partners/>-->
+      <Partners/>
   <!--    <div class="divider"></div>-->
   <!--    <div class="mt-16 mb-36 flex place-content-center lg:mx-auto mx-5 text-justify">-->
   <!--      <div id="contact"-->
@@ -89,7 +89,7 @@
   <!--            </a>-->
   <!--          </button>-->
   <!--        </p>-->
-  <!--      </div>-->
+        </div>
   <!--    </div>-->
   <!--  </div>-->
 
