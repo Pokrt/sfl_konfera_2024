@@ -1,5 +1,5 @@
 <template>
-  <!--  <Navbar/>-->
+    <Navbar/>
   <div class="hero min-h-screen " style="background-image: url(/img_2.png);">
     <div class="hero-overlay "></div>
     <div class="hero-content text-center text-neutral-content">
@@ -57,7 +57,7 @@
   <!--  <div class="divider"></div>-->
     <div class="prose-h1:font-burra">
 
-
+      <Speakers/>
   <!--    <Organizers/>-->
   <!--    <div class="divider"></div>-->
       <Partners/>
@@ -102,10 +102,11 @@ import Navbar from "./Navbar.vue";
 import Partners from "./Partners.vue";
 import Organizers from "./Organizers.vue";
 import Info from "./Info.vue";
+import Speakers from "./speakers.vue";
 
 
 export default {
   name: "Content",
-  components: {Info, Organizers, Partners, Navbar, Countdown}
+  components: {Speakers, Info, Organizers, Partners, Navbar, Countdown}
 }
 </script>
