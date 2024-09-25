@@ -2,7 +2,8 @@
   <div class="z-10 navbar bg-secondary text-neutral  fixed ">
     <div class="navbar-start">
       <details class="dropdown">
-        <summary tabindex="0" role="button" class="btn bg-transparent text-neutral lg:hidden lg:bg-secondary border-neutral">
+        <summary tabindex="0" role="button"
+                 class="btn bg-transparent text-neutral lg:hidden lg:bg-secondary border-neutral">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"/>
           </svg>
@@ -11,14 +12,15 @@
           <li>
             <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
                          to="./#speakers">
-              Speakers
+              Řečníci
             </router-link>
           </li>
-          <!--          <li>-->
-          <!--            <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="./#info">-->
-          <!--              Program-->
-          <!--            </router-link>-->
-          <!--          </li>-->
+          <li>
+            <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
+                         to="/#about">O nás
+            </router-link>
+          </li>
+
           <!--          <li>-->
           <!--            <details v-click-outside="subNavbarHide">-->
           <!--              <summary class="dropdown">Tickets</summary>-->
@@ -45,7 +47,9 @@
           <!--          </li>-->
           <li>
             <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
-                         to="/#partners">Partners
+                         to="/#past">Minulé ročníky
+            </router-link>            <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
+                         to="/#partners">Partneři
             </router-link>
           </li>
           <!--          <li>-->
@@ -56,7 +60,7 @@
 
           <li>
             <a @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
-               href="https://www.smsticket.cz/vstupenky/48423-legalizujme-konference-praha-kulturni-sportovna-radlicka-praha">Tickets</a>
+               href="https://www.smsticket.cz/vstupenky/48423-legalizujme-konference-praha-kulturni-sportovna-radlicka-praha">Lístky</a>
           </li>
         </ul>
       </details>
@@ -66,11 +70,17 @@
     <div class="navbar-center hidden lg:flex ">
       <ul class="menu menu-horizontal px-1">
         <li>
-          <router-link class="text-xl" to="/#speakers">Speakers</router-link>
+          <router-link class="text-xl" to="/#speakers">Řečníci</router-link>
         </li>
         <li>
-          <router-link class="text-xl" to="/#partners">Partners</router-link>
+          <router-link class="text-xl" to="/#about">O Nás</router-link>
+        </li>        <li>
+          <router-link class="text-xl" to="/#past">Minulé ročníky</router-link>
         </li>
+        <li>
+          <router-link class="text-xl" to="/#partners">Partneři</router-link>
+        </li>
+
         <!--        <li>-->
         <!--          <details v-click-outside="subNavbarHide">-->
         <!--            <summary class="text-xl">Tickets</summary>-->
@@ -95,8 +105,8 @@
         <!--          <router-link class="text-xl" to="/#partners">Partners</router-link>-->
         <!--        </li>-->
         <li>
-          <a class="text-xl"
-             href="https://www.smsticket.cz/vstupenky/48423-legalizujme-konference-praha-kulturni-sportovna-radlicka-praha">Tickets</a>
+          <a class="text-xl" target="_blank"
+             href="https://www.smsticket.cz/vstupenky/48423-legalizujme-konference-praha-kulturni-sportovna-radlicka-praha">Lístky</a>
         </li>
       </ul>
     </div>

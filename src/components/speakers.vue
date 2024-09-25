@@ -2,7 +2,7 @@
   <section id="speakers" class="w-full max-w-6xl mx-auto py-12 md:py-24 px-4 md:px-6">
     <div class="my-16 flex place-content-center lg:mx-auto mx-5 text-justify">
       <div class="prose lg:prose-xl text-white prose-headings:text-neutral">
-        <h1 id="team">Speakers</h1></div>
+        <h1 id="team">Řečníci</h1></div>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
@@ -16,7 +16,7 @@
           <h2 class="text-center card-title w-full block ">
             {{ speaker.name }}
           </h2>
-          <p class="te">{{ speaker.description }}</p>
+          <p class="" v-html="speaker.description"></p>
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@ export default {
         },        {
           name: "Martin Duřt",
           photo: "/speakers/durt.png",
-          description: "Martin Duřt je výzkumník fenomenologie psychoaktivních látek, spoluzakladatel harm reduction platformy Czeched Substance, člen České psychedelické společnosti a autor blogu utheraptor.art. Ve své práci se zaměřuje na odhalování vlivu drog na lidské vědomí a snižování jejich rizik. Když se nevěnuje vědě, tvoří umění pomocí umělé inteligence a píše."
+          description: "Martin Duřt je výzkumník fenomenologie psychoaktivních látek, spoluzakladatel harm reduction platformy Czeched Substance, člen České psychedelické společnosti a autor blogu <a class='link'  target='_blank' href=\" http://utheraptor.art\">utheraptor.art</a>. Ve své práci se zaměřuje na odhalování vlivu drog na lidské vědomí a snižování jejich rizik. Když se nevěnuje vědě, tvoří umění pomocí umělé inteligence a píše."
         },
       ]
 

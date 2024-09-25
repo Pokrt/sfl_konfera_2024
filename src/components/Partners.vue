@@ -1,12 +1,12 @@
 <template>
   <div class="mt-28 flex place-content-center lg:mx-auto mx-5 text-justify">
     <div class="prose lg:prose-xl text-white prose-headings:text-neutral">
-      <h1 id="partners">Partners</h1></div>
+      <h1 id="partners">Partneři</h1></div>
   </div>
   <div class=" px-4 mx-auto max-w-screen-xl lg:px-6">
 
     <div class="grid grid-cols-1 lg:flex gap-4 lg:gap-8 flex-auto justify-center">
-      <a v-for="partner in partners" :href="partner.url"
+      <a v-for="partner in partners" target='_blank'  :href="partner.url"
          class="card    justify-items-center grid   ">
         <figure><img class="object-contain  lg:mb-0
 " :class="partner.class" :src="partner.logo" :alt="partner.name"/>
