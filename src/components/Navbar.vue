@@ -59,7 +59,7 @@
           <!--          </li>-->
 
           <li>
-            <a @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
+            <a @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" data-umami-event="SMS Ticket navbar mobil"
                href="https://www.smsticket.cz/vstupenky/48423-legalizujme-konference-praha-kulturni-sportovna-radlicka-praha">Lístky</a>
           </li>
         </ul>
@@ -105,7 +105,7 @@
         <!--          <router-link class="text-xl" to="/#partners">Partners</router-link>-->
         <!--        </li>-->
         <li>
-          <a class="text-xl" target="_blank"
+          <a class="text-xl" target="_blank" data-umami-event="SMS Ticket navbar pc"
              href="https://www.smsticket.cz/vstupenky/48423-legalizujme-konference-praha-kulturni-sportovna-radlicka-praha">Lístky</a>
         </li>
       </ul>
