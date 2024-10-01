@@ -39,7 +39,7 @@
 
 
         <div>
-          <a href="https://www.smsticket.cz/vstupenky/48423-legalizujme-konference-praha-kulturni-sportovna-radlicka-praha"
+          <a data-umami-event="SMS Ticket" href="https://www.smsticket.cz/vstupenky/48423-legalizujme-konference-praha-kulturni-sportovna-radlicka-praha"
              class="btn btn-lg   mt-32  bg-gradient-to-r from-secondary to-neutral  motion-safe:animate-bounce transition-opacity  ease-in duration-700 shadow-xl border-0">Vstupenky</a>
         </div>
       </div>
