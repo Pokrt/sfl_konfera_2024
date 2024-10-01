@@ -17,6 +17,12 @@
           </li>
           <li>
             <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
+                         to="./#schedule">
+              Program
+            </router-link>
+          </li>
+          <li>
+            <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
                          to="/#about">O nás
             </router-link>
           </li>
@@ -71,6 +77,9 @@
       <ul class="menu menu-horizontal px-1">
         <li>
           <router-link class="text-xl" to="/#speakers">Řečníci</router-link>
+        </li>
+        <li>
+          <router-link class="text-xl" to="/#schedule">Program</router-link>
         </li>
         <li>
           <router-link class="text-xl" to="/#about">O Nás</router-link>

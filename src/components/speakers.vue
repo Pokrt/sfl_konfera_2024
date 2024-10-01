@@ -13,7 +13,7 @@
                :alt="speaker.name"/>
         </figure>
         <div class="card-body">
-          <h2 class="text-center card-title w-full block ">
+          <h2 class="text-center card-title w-full block">
             {{ speaker.name }}
           </h2>
           <p class="" v-html="speaker.description"></p>
