@@ -2,9 +2,11 @@
 <template>
   <section id="schedule" class="schedule-section">
     <div class="schedule-container">
-      <div class="lg:prose-xl text-white prose-headings:text-neutral">
-      <h1 class="schedule-title ">Program</h1>
-      </div>
+    <div class="my-16 flex place-content-center lg:mx-auto mx-5 text-justify">
+
+      <div class="prose lg:prose-xl text-white prose-headings:text-neutral">
+      <h1 class="schedule-title">Program</h1>
+      </div></div>
       <div class="schedule-grid">
         <div
           v-for="(session, index) in schedule"
@@ -93,7 +95,7 @@ export default {
         { 
           time: '13:00 - 14:00', 
           title: 'Legalizace konopí',
-          description: 'Panel "Legalizace konopí" se zaměří na diskuzi o možnostech a důsledcích legalizace konopí v Česku. Bývalý národní protidrogový koordinátor Jindřich Vobořil a Tomáš Vymazal, předseda Asociace bezpečného konopí a hlavní iniciátor zvýšení limitu THC v technickém konopí na 1 %, budou debatovat o současných regulacích a navrhovaných změnách, včetně širšího přijetí zákona o regulaci konopí. Panel, moderovaný Filipem Blahou ze Students for Liberty, se zaměří na racionální přístupy k regulaci a na to, jaké dopady by mohla legalizace mít na společnost, ekonomiku a veřejné zdraví.',
+          description: 'Panel "Legalizace konopí" se zaměří na diskuzi o možnostech a důsledcích legalizace konopí v Česku.',
           speakers: [
             { 
               name: 'Tom Vymazal', 
@@ -103,7 +105,7 @@ export default {
             { 
               name: 'Jindřich Vobořil', 
               picture: '/speakers/voboril.jpg',
-              bio: 'Jindřich Vobořil je český expert na drogovou problematiku, který působil jako národní protidrogový koordinátor v letech 2010-2018 a 2022-2024. Vystudoval pedagogiku a teologii na Univerzitě Palackého v Olomouci a postgraduálně aplikovanou psychologii na John Moores University v Liverpoolu. Má dlouholeté zkušenosti v oblasti protidrogové politiky, mimo jiné jako předseda Sdružení Podané ruce. Ve funkci národního koordinátora často kritizoval vládní politiku, včetně neshod s premiérem Andrejem Babišem. Vobořil je členem ODS a aktivně se věnoval i komunální politice.'
+              bio: 'Jindřich Vobořil je český expert na drogovou problematiku, který působil jako národní protidrogový koordinátor v letech 2010-2018 a 2022-2024. Má dlouholeté zkušenosti v oblasti protidrogové politiky, mimo jiné jako předseda Sdružení Podané ruce. Ve funkci národního koordinátora často kritizoval vládní politiku, včetně neshod s premiérem Andrejem Babišem. Vobořil je členem ODS a aktivně se věnoval i komunální politice.'
             }
           ],
           moderator: { 
@@ -120,7 +122,7 @@ export default {
         {
           time: '14:15 - 15:00',
           title: 'Harm reduction',
-          description: 'Panel "Harm reduction" bude zkoumat, jak minimalizovat rizika spojená s užíváním návykových látek. Viktor Mravčík, odborník na epidemiologii, a Martin Duřt, výzkumník psychoaktivních látek, budou diskutovat o strategiích prevence, dekriminalizace a bezpečného užívání drog. Panel, moderovaný lékařkou Terezou Urzovou, se zaměří na moderní přístupy ke snižování škod a ochranu veřejného zdraví.',
+          description: 'Panel "Harm reduction" bude zkoumat, jak minimalizovat rizika spojená s užíváním návykových látek.',
           speakers: [
             { 
               name: 'Viktor Mravčík', 
@@ -152,7 +154,7 @@ export default {
             { 
               name: 'Matěj Hollan', 
               picture: '/speakers/hollan.jpg',
-              bio: 'Matěj Hollan je český hudebník, muzikolog, občanský aktivista a politik, známý zejména svým působením v oblasti snižování rizik závislostí a regulace hazardu. V letech 2014–2018 působil jako 3. náměstek primátora Brna za politické hnutí Žít Brno. Od roku 2022 je opět zastupitelem města Brna. V současnosti působí jako ředitel Asociace nestátních organizací zaměřených na prevenci závislostí. Hollan je dlouhodobě aktivní v občanském aktivismu a boji proti korupci. V roce 2013 získal Cenu Františka Kriegla za občanskou statečnost.'
+              bio: 'Matěj Hollan je český hudebník, muzikolog, občanský aktivista a politik, známý zejména svým působením v oblasti snižování rizik závislostí a regulace hazardu. V letech 2014–2018 působil jako 3. náměstek primátora Brna za politické hnutí Žít Brno. Od roku 2022 je opět zastupitelem města Brna. V současnosti působí jako ředitel Asociace nestátních organizací zaměřených na prevenci závislostí.'
             },
             { 
               name: 'TBA', 
