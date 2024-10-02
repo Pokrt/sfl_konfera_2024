@@ -58,6 +58,7 @@
   <div class="prose-h1:font-burra">
 
     <Speakers/>
+    <Schedule/>
     <!--    <Organizers/>-->
     <!--    <div class="divider"></div>-->
     <div id="about"></div>
@@ -159,10 +160,11 @@ import Partners from "./Partners.vue";
 import Organizers from "./Organizers.vue";
 import Info from "./Info.vue";
 import Speakers from "./speakers.vue";
+import Schedule from "./Schedule.vue";
 
 
 export default {
   name: "Content",
-  components: {Speakers, Info, Organizers, Partners, Navbar, Countdown}
+  components: {Speakers, Info, Organizers, Partners, Navbar, Countdown, Schedule}
 }
 </script>

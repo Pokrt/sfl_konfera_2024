@@ -1,0 +1,250 @@
+/* Schedule.css */
+
+/* General Styles */
+.schedule-section {
+  width: 100%;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.schedule-container {
+  max-width: 1200px;
+  width: 50%;
+  padding: 0 1rem;
+}
+
+.schedule-title {
+  margin-top: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+
+}
+
+/* Schedule Grid */
+.schedule-grid {
+  display: grid;
+  gap: 1.5rem;
+
+}
+
+.session-card {
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.session-card:hover {
+  transform: translateY(-5px);
+}
+
+.session-card-body {
+  padding: 1rem;
+}
+
+.session-card-time {
+  font-size: 1.25rem;
+  color: #007BFF;
+}
+
+.session-card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.session-speakers,
+.session-moderator {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none; /* Hidden by default */
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal.modal-open {
+  display: flex; /* Show modal when modal-open class is added */
+}
+
+.modal-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Ensure overlay is below modal content */
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 800px;
+  max-height: 90%;
+  overflow-y: auto;
+  border-radius: 8px;
+  z-index: 1001; /* Ensure modal content is above overlay */
+}
+
+.modal-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.modal-description {
+  margin-top: 1rem;
+}
+
+.modal-section {
+  margin-top: 2rem;
+}
+
+.modal-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.modal-speakers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.modal-person {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal-person:hover {
+  opacity: 0.8;
+}
+
+.modal-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.modal-name {
+  margin-top: 0.5rem;
+}
+
+.modal-name-moderator {
+  margin-top: 0.5rem;
+  text-align: left;
+}
+
+.modal-image-large {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 1rem auto;
+  display: block;
+}
+
+.back-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: #007BFF;
+}
+
+.back-button:hover {
+  color: #0056b3;
+}
+
+.modal-close-button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-close-button:hover {
+  background-color: #0056b3;
+}
+
+/* Speaker Modal Styles */
+.modal-image-large {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 1rem auto;
+  display: block;
+}
+
+.back-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: #007BFF;
+}
+
+.back-button:hover {
+  color: #0056b3;
+}
+
+/* Adjust modal-close-button position */
+.modal-back-button {
+  margin-top: 0rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-back-button:hover {
+  background-color: #0056b3;
+}
+/* Adjust modal-close-button position */
+.modal-close-button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-close-button:hover {
+  background-color: #0056b3;
+}
