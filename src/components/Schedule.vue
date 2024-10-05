@@ -94,24 +94,25 @@ export default {
         },
         { 
           time: '13:00 - 14:00', 
-          title: 'Legalizace konopí',
-          description: 'Panel "Legalizace konopí" se zaměří na diskuzi o možnostech a důsledcích legalizace konopí v Česku.',
+          title: 'Konopí bez mýtů: Česko na prahu legalizace',
+          description: '',
           speakers: [
             { 
-              name: 'Tom Vymazal', 
+              name: 'Tomáš Vymazal', 
               picture: '/speakers/vymazal.png',
-              bio: 'Tom Vymazal je český politik a aktivista, zabývající se legalizací konopí.'
+              bio: 'Bývalý poslanec PSP ČR, který stojí za zvýšením hranice pro obsah THC v technickém konopí na 1 %. Předseda Asociace bezpečného konopí, z.s. a spoluzakladatel RARE - Racionální regulace, spolku který připravuje celoplošnou kampaň s cílem vytvořit tlak na politickou reprezentaci a přispět tak zásadně k přijetí zákona o regulaci konopí.'
             },
             { 
               name: 'Jindřich Vobořil', 
-              picture: '/speakers/voboril.jpg',
-              bio: 'Jindřich Vobořil je český expert na drogovou problematiku, který působil jako národní protidrogový koordinátor v letech 2010-2018 a 2022-2024. Má dlouholeté zkušenosti v oblasti protidrogové politiky, mimo jiné jako předseda Sdružení Podané ruce. Ve funkci národního koordinátora často kritizoval vládní politiku, včetně neshod s premiérem Andrejem Babišem. Vobořil je členem ODS a aktivně se věnoval i komunální politice.'
+              picture: '/speakers/voboril.jpeg',
+              bio: 'Jindřich Vobořil působí jako ředitel Společnosti Podané Ruce a také jako expertní poradce současného premiéra. Patří k předním českým expertům v oblasti závislostí a v minulosti dlouhodobě zastával i pozici Národního protidrogového koordinátora, na které se zabýval například přípravou zákona o regulaci konopí, který by vytvořil jasná pravidla pro zavedení regulovaného trhu s konopím v České republice.'
+
             }
           ],
           moderator: { 
             name: 'Filip Blaha', 
             picture: '/speakers/blaha.jpg',
-            bio: 'Filip Blaha je moderátor a odborník na drogovou problematiku.'
+            bio: 'Filip Blaha je člen Students For Liberty CZ a odborník na drogovou problematiku.'
           }
         },
         { 
@@ -121,14 +122,9 @@ export default {
         },
         {
           time: '14:15 - 15:00',
-          title: 'Harm reduction',
-          description: 'Panel "Harm reduction" bude zkoumat, jak minimalizovat rizika spojená s užíváním návykových látek.',
+          title: 'Zdraví před trestem: harm reduction aneb lidský přístup k drogové politice',
+          description: '',
           speakers: [
-            { 
-              name: 'Viktor Mravčík', 
-              picture: '/speakers/mravcik.png',
-              bio: 'Viktor Mravčík je lékař se specializací v oboru epidemiologie, má doktorát (Ph.D.) z preventivního lékařství a v r. 2018 byl jmenován docentem v oboru hygiena a epidemiologie 1. LF UK. Působí jako ředitel výzkumu ve Společnosti Podané ruce. V současné době je členem úzkého týmu připravujícího návrhy na dekriminalizaci a legální regulaci návykových látek v ČR.'
-            },
             { 
               name: 'Martin Duřt', 
               picture: '/speakers/durt.png',
@@ -138,7 +134,7 @@ export default {
           moderator: { 
             name: 'Tereza Urzová', 
             picture: '/speakers/urzova.jpg',
-            bio: 'Tereza Urzová je lékařka a anarchokapitalistka.'
+            bio: 'Tereza Urzová je lékařka a analytička Institutu liberálních studií. Dříve působila i ve spolku Svobodný přístav, který spoluzaložila. Dlouhodobě se věnuje ekonomickým a zdravotně-sociálním dopadům prohibice psychoaktivních látek.'
           }
         },
         { 
@@ -148,17 +144,22 @@ export default {
         },
         {
           time: '15:30 - 16:30',
-          title: 'Oběti represe',
+          title: 'Zločin bez oběti: Příběhy obětí války proti drogám',
           description: 'Příběhy lidí postižených represivní politikou.',
           speakers: [
             { 
-              name: 'Matěj Hollan', 
-              picture: '/speakers/hollan.jpg',
-              bio: 'Matěj Hollan je český hudebník, muzikolog, občanský aktivista a politik, známý zejména svým působením v oblasti snižování rizik závislostí a regulace hazardu. V letech 2014–2018 působil jako 3. náměstek primátora Brna za politické hnutí Žít Brno. Od roku 2022 je opět zastupitelem města Brna. V současnosti působí jako ředitel Asociace nestátních organizací zaměřených na prevenci závislostí.'
+              name: 'Lukáš Hurt', 
+              picture: '/speakers/hurt.jpg',
+              bio: 'Lukáš Hurt je český překladatel a editor. Již přes deset let se věnuje problematice konopí se zaměřením na lidská práva.'
+            },
+            { 
+              name: 'Dana Syslová', 
+              picture: '/speakers/syslova.png',
+              bio: 'Mgr. Dana Syslová je adiktoložka a psychoterapeutka.'
             },
             { 
               name: 'TBA', 
-              picture: '/speakers/tba.webp',
+              picture: '/speakers/tba.jpg',
               bio: 'Bude upřesněno.'
             }
           ],
@@ -175,9 +176,23 @@ export default {
         },
         { 
           time: '16:45 - 17:45', 
-          title: 'TBA',
-          description: 'Program bude upřesněn.'
+          title: 'Psychadelika v medicíně: (Staro)nové horizonty léčby',
+          description: '',
+          speakers: [
+            { 
+              name: 'TBA', 
+              picture: '/speakers/tba.jpg',
+              bio: 'Bude upřesněno.'
+            },
+
+          ],
+          moderator: { 
+            name: 'Eva Césarová', 
+            picture: '/speakers/cesarova.jpg',
+            bio: 'Eva Césarová je doktorskou studentkou adiktologie, spoluzakladatelkou České psychedelické společnosti, a také ředitelkou sekretariátu Nadačního fondu pro výzkum psychedelik. Výzkumu role psychedelik v léčbě závislostí se dlouhodobě věnuje, a stejnému tématu se bude věnovat i na konferenci jako moderátorka panelu “Psychadelika v medicíně: (Staro)nové horizonty léčby”.'
+          },
         }
+
       ],
       selectedSession: null,
       selectedSpeaker: null
