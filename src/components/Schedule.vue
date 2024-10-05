@@ -20,9 +20,9 @@
 
               <div v-if="session.speakers" class="session-speakers">
                 <span class="label">Řečníci: </span>
-                <span v-for="(speaker, speakerIndex) in session.speakers" :key="speakerIndex">
-                  {{ speaker.name }}<span v-if="speakerIndex < session.speakers.length - 1">, </span>
-                </span>
+                <template v-for="(speaker, speakerIndex) in session.speakers" :key="speakerIndex">
+                  {{ speaker.name }}<template v-if="speakerIndex < session.speakers.length - 1">, </template>
+                </template>
               </div>
             <div v-if="session.moderator" class="session-moderator">
               <span class="label">Moderátor: </span>
