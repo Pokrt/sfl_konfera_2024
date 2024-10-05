@@ -57,7 +57,7 @@
 
   <!--  <div class="divider"></div>-->
   <div class="prose-h1:font-burra">
-
+    <AboutConference/>
     <Schedule/>
     <Speakers/>
     <!--    <Organizers/>-->
@@ -162,10 +162,11 @@ import Organizers from "./Organizers.vue";
 import Info from "./Info.vue";
 import Speakers from "./speakers.vue";
 import Schedule from "./Schedule.vue";
+import AboutConference from "./AboutConference.vue";
 
 
 export default {
   name: "Content",
-  components: {Speakers, Info, Organizers, Partners, Navbar, Countdown, Schedule}
+  components: {Speakers, Info, Organizers, Partners, Navbar, Countdown, Schedule, AboutConference}
 }
 </script>
