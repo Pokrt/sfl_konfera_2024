@@ -111,12 +111,18 @@ export default {
          description: 'Eva Césarová je doktorskou studentkou adiktologie, spoluzakladatelkou České psychedelické společnosti, a také ředitelkou sekretariátu Nadačního fondu pro výzkum psychedelik. Výzkumu role psychedelik v léčbě závislostí se dlouhodobě věnuje, a stejnému tématu se bude věnovat i na konferenci jako moderátorka panelu “Psychadelika v medicíně: (Staro)nové horizonty léčby”.'
         },
         { 
+          name: 'Barbara Mallarino', 
+          photo: '/speakers/mallarino.jpg',
+          organization: 'Národní ústav duševního zdraví',
+          description: 'Bára je absolventkou magisterského programu na UK oboru fyziologie člověka se specializací na neurobiologii.'
+        },
+
+        { 
          name: 'Filip Blaha', 
          photo: '/speakers/blaha.jpg',
          organization: 'Students For Liberty',
          description: 'Filip Blaha je člen Students For Liberty CZ a odborník na drogovou problematiku.'
         }
-
 
       ],
       selectedSpeaker: null
