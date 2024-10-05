@@ -1,6 +1,6 @@
 <template>
   <Navbar/>
-  <div class="hero min-h-screen " style="background-image: url(/img_2.png);">
+  <div class="hero min-h-screen " style="background-image: url(/img_2.jpg);">
     <div class="hero-overlay "></div>
     <div class="hero-content text-center text-neutral-content">
 
