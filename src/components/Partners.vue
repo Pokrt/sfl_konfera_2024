@@ -40,7 +40,19 @@ const partners = ref([{
     class: ' w-60 mb-20 lg:mb-0'
 
   },
+  {
+    name: 'Rare',
+    url: 'https://www.racionalniregulace.cz/',
+    logo: '/logo_rare.png',
+    class: ' w-60 mb-20 lg:mb-0'
+  },
 
+  {
+    name: 'CzecHemp',
+    url: 'https://www.czechemp.cz/',
+    logo: '/CzecHemp.png',
+    class: ' w-60 mb-20 lg:mb-0'
+  },
 ])
 
 
