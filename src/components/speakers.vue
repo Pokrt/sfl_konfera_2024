@@ -46,6 +46,10 @@
         <h2 class="text-2xl font-bold text-center mb-4">
           {{ selectedSpeaker.name }}
         </h2>
+
+        <p class="text-center text-sm text-gray-400 mb-4">
+          {{ selectedSpeaker.organization }}
+        </p>
         <p v-html="selectedSpeaker.description"></p>
       </div>
     </div>
