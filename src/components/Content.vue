@@ -12,7 +12,8 @@
           <h1 class="block lg:hidden font-burra text-6xl w-full font-bold text-secondary text-center">Legali<br>zujme
           </h1>
         </div>
-        <p class="text-lg xl:text-2xl text-secondary ">Praha | 26.10.</p>
+        <p class="text-lg xl:text-2xl text-secondary ">26.10.</p>
+        <p class="text-lg xl:text-2xl text-secondary ">Praha – Radlická kulturní sportovna</p>
 
 
         <p class="py-6 text-white text-lg xl:text-2xl mt-5 font-bold w-full">
@@ -57,8 +58,8 @@
   <!--  <div class="divider"></div>-->
   <div class="prose-h1:font-burra">
 
-    <Speakers/>
     <Schedule/>
+    <Speakers/>
     <!--    <Organizers/>-->
     <!--    <div class="divider"></div>-->
     <div id="about"></div>
