@@ -179,6 +179,12 @@ export default {
           title: 'Psychadelika v medicíně: (Staro)nové horizonty léčby',
           description: '',
           speakers: [
+
+            { 
+              name: 'Barbara Mallarino', 
+              picture: '/speakers/mallarino.jpg',
+              bio: 'Bára je absolventkou magisterského programu na UK oboru fyziologie člověka se specializací na neurobiologii.'
+            },
             { 
               name: 'TBA', 
               picture: '/speakers/tba.jpg',
