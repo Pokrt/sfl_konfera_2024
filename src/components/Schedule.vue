@@ -176,7 +176,7 @@ export default {
         },
         { 
           time: '16:45 - 17:45', 
-          title: 'Psychadelika v medicíně: (Staro)nové horizonty léčby',
+          title: 'Psychedelika v medicíně: (Staro)nové horizonty léčby',
           description: '',
           speakers: [
 
