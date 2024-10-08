@@ -105,7 +105,7 @@ export default {
             { 
               name: 'Jindřich Vobořil', 
               picture: '/speakers/voboril.jpeg',
-              bio: 'Jindřich Vobořil působí jako ředitel Společnosti Podané Ruce a také jako expertní poradce současného premiéra. Patří k předním českým expertům v oblasti závislostí a v minulosti dlouhodobě zastával i pozici Národního protidrogového koordinátora, na které se zabýval například přípravou zákona o regulaci konopí, který by vytvořil jasná pravidla pro zavedení regulovaného trhu s konopím v České republice.'
+              bio: 'Jindřich Vobořil působí jako expertní poradce současného premiéra. Patří k předním českým expertům v oblasti závislostí a v minulosti dlouhodobě zastával i pozici Národního protidrogového koordinátora, na které se zabýval například přípravou zákona o regulaci konopí, který by vytvořil jasná pravidla pro zavedení regulovaného trhu s konopím v České republice.'
 
             }
           ],
