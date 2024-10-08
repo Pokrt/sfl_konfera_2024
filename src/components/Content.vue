@@ -6,7 +6,7 @@
 
       <div class="mt-10 ">
         <!--        <h1 class="mb-5 text-5xl font-bold text-white">INSPIRED 2 CARE</h1>-->
-        <p class="text-lg xl:text-2xl text-secondary ">Konference</p>
+<!--        <p class="text-lg xl:text-2xl text-secondary ">Konference</p>-->
         <div class=" items-center w-full my-4 ">
           <h1 class="hidden lg:block font-burra text-4xl xl:text-9xl w-full font-bold text-secondary">Legalizujme</h1>
           <h1 class="block lg:hidden font-burra text-6xl w-full font-bold text-secondary text-center">Legali<br>zujme
