@@ -99,7 +99,7 @@ export default {
         { 
           name: 'Dana Syslová', 
           photo: '/speakers/syslova.png',
-          organization: 'Helsinský výbor',
+          organization: 'Český helsinský výbor',
           description: 'Mgr. Dana Syslová je adiktoložka a psychoterapeutka.'
         },
         { 
