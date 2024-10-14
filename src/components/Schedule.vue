@@ -150,17 +150,17 @@ export default {
             { 
               name: 'Lukáš Hurt', 
               picture: '/speakers/hurt.jpg',
-              bio: 'Lukáš Hurt je český překladatel a editor. Již přes deset let se věnuje problematice konopí se zaměřením na lidská práva.'
+              bio: 'Původním vzděláním historik a anglista, který již řadu let pracuje jako překladatel, novinář, editor a vydavatel magazínu Konopí se zaměřením na konopí a jeho léčebné i další využití. Je spoluzakladatelem občanské iniciativy Rodiny proti prohibici, manažerem Českého konopného klastru a registrovaným konopným pacientem. Na začátku letošního roku spoluzaložil spolek Racionální regulace, jehož cílem je prosadit racionální reformu konopné legislativy a ukončit nesmyslnou prohibici této rostliny.'
             },
             { 
               name: 'Dana Syslová', 
               picture: '/speakers/syslova.png',
-              bio: 'Mgr. Dana Syslová je adiktoložka a psychoterapeutka.'
+              bio: 'Má univerzitní vzdělání v oboru sociální práce, absolvovala akreditovaný výcvik v systemické psychoterapii a je registrovanou inspektorkou kvality sociálních služeb. V současnosti působí jako nezávislá konzultantka, věnuje se zejména podpoře zvyšování kvality sociálních služeb a rozvoji organizací poskytujících sociální služby. Od loňského roku aktivně spolupracuje s iniciativou Rodiny proti prohibici.'
             },
             { 
-              name: 'TBA', 
-              picture: '/speakers/tba.jpg',
-              bio: 'Bude upřesněno.'
+              name: 'Irena Fenyklová', 
+              picture: '/speakers/fenyklova.jpg',
+              bio: 'Matka syna, který byl odsouzen na dvanáct let vězení za přečiny související s pěstováním a držením velkého množství konopí, aniž by mu soudem byla prokázána distribuce. Je spoluzakladatelkou  iniciativy Rodiny proti prohibici, která sdružuje další oběti současných represivních zákonů a nabízí jim právní pomoc i lidskou podporu. Navštěvuje soudy s lidmi, kterým hrozí podobně drakonické tresty jako jejímu synovi, účastní se různých besed a konferencí s cílem šířit povědomí o této problematice.' 
             }
           ],
           moderator: { 
@@ -186,9 +186,9 @@ export default {
               bio: 'Bára je absolventkou magisterského programu na UK oboru fyziologie člověka se specializací na neurobiologii.'
             },
             { 
-              name: 'TBA', 
-              picture: '/speakers/tba.jpg',
-              bio: 'Bude upřesněno.'
+              name: 'Tereza Urzová', 
+              picture: '/speakers/urzova.jpg',
+              bio: 'Tereza Urzová je lékařka a analytička Institutu liberálních studií. Dříve působila i ve spolku Svobodný přístav, který spoluzaložila. Dlouhodobě se věnuje ekonomickým a zdravotně-sociálním dopadům prohibice psychoaktivních látek.'
             },
 
           ],
