@@ -50,6 +50,11 @@
           <!--            <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)" to="/#team">-->
           <!--              Team-->
           <!--            </router-link>-->
+          <li>
+            <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
+                         to="/#vstupenky">O nás
+            </router-link>
+          </li>
           <!--          </li>-->
           <li>
             <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
@@ -89,6 +94,9 @@
         <li>
           <router-link class="text-xl" to="/#partners">Partneři</router-link>
         </li>
+        <li>
+          <router-link class="text-xl" to="/#tickets">Vstupenky</router-link>
+        </li>
 
         <!--        <li>-->
         <!--          <details v-click-outside="subNavbarHide">-->
@@ -113,10 +121,6 @@
         <!--        <li>-->
         <!--          <router-link class="text-xl" to="/#partners">Partners</router-link>-->
         <!--        </li>-->
-        <li>
-          <a class="text-xl" target="_blank" data-umami-event="SMS Ticket navbar pc"
-             href="https://www.smsticket.cz/vstupenky/48423-legalizujme-konference-praha-kulturni-sportovna-radlicka-praha">Vstupenky</a>
-        </li>
       </ul>
     </div>
     <div class="navbar-end ">

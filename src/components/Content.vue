@@ -39,10 +39,10 @@
         <!--        </div>-->
 
 
-        <div>
-          <a data-umami-event="SMS Ticket" href="https://www.smsticket.cz/vstupenky/48423-legalizujme-konference-praha-kulturni-sportovna-radlicka-praha"
-             class="btn btn-lg   mt-32  bg-gradient-to-r from-secondary to-neutral  motion-safe:animate-bounce transition-opacity  ease-in duration-700 shadow-xl border-0">Vstupenky</a>
-        </div>
+        <li>
+          <router-link to="/#tickets"
+                        class="btn btn-lg   mt-32  bg-gradient-to-r from-secondary to-neutral  motion-safe:animate-bounce transition-opacity  ease-in duration-700 shadow-xl border-0">Vstupenky</router-link>
+        </li>
       </div>
     </div>
   </div>
@@ -146,7 +146,9 @@
       </div>
 
 
+
     </section>
+    <Tickets/>
     <Partners/>
   </div>
 
@@ -163,10 +165,11 @@ import Info from "./Info.vue";
 import Speakers from "./speakers.vue";
 import Schedule from "./Schedule.vue";
 import AboutConference from "./AboutConference.vue";
+import Tickets from "./Tickets.vue"
 
 
 export default {
   name: "Content",
-  components: {Speakers, Info, Organizers, Partners, Navbar, Countdown, Schedule, AboutConference}
+  components: {Speakers, Info, Organizers, Partners, Navbar, Countdown, Schedule, AboutConference, Tickets}
 }
 </script>
