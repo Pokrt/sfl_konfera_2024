@@ -12,6 +12,7 @@
       <p class="mt-4">
         Součástí konference budou diskuzní panely zaměřené například na oběti represe, legalizaci konopí nebo harm reduction přístup. Formální část začíná ve 13:00 a končí v 18:00, následovat bude neformální networking a afterparty. Celá akce proběhne v <a href="https://www.kulturnisportovna.cz/" target="_blank" class="text-blue-600 underline">Radlické kulturní sportovně</a>, kde bude k dispozici také bar s občerstvením.
       </p>
+
     </div>
   </section>
 </template>
