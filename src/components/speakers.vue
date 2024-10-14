@@ -64,8 +64,8 @@ export default {
         { 
           name: 'Jindřich Vobořil', 
           photo: '/speakers/voboril.jpg',
-          organization: 'Expertní poradce premiéra ČR',
-          description: 'Jindřich Vobořil působí jako expertní poradce současného premiéra. Patří k předním českým expertům v oblasti závislostí a v minulosti dlouhodobě zastával i pozici Národního protidrogového koordinátora, na které se zabýval například přípravou zákona o regulaci konopí, který by vytvořil jasná pravidla pro zavedení regulovaného trhu s konopím v České republice.'
+          organization: 'Společnost Podané ruce',
+          description: 'Jindřich Vobořil působí v organizaci Společnost Podané ruce a jako expertní poradce současného premiéra. Patří k předním českým expertům v oblasti závislostí a v minulosti dlouhodobě zastával i pozici Národního protidrogového koordinátora, na které se zabýval například přípravou zákona o regulaci konopí, který by vytvořil jasná pravidla pro zavedení regulovaného trhu s konopím v České republice.'
 
         },
         {
@@ -93,14 +93,14 @@ export default {
           name: 'Lukáš Hurt', 
           photo: '/speakers/hurt.jpg',
           organization: 'Magazín Konopí',
-          description: 'Lukáš Hurt je český překladatel a editor. Již přes deset let se věnuje problematice konopí se zaměřením na lidská práva.'
+          description: 'Původním vzděláním historik a anglista, který již řadu let pracuje jako překladatel, novinář, editor a vydavatel magazínu Konopí se zaměřením na konopí a jeho léčebné i další využití. Je spoluzakladatelem občanské iniciativy Rodiny proti prohibici, manažerem Českého konopného klastru a registrovaným konopným pacientem. Na začátku letošního roku spoluzaložil spolek Racionální regulace, jehož cílem je prosadit racionální reformu konopné legislativy a ukončit nesmyslnou prohibici této rostliny.'
         },
 
         { 
           name: 'Dana Syslová', 
           photo: '/speakers/syslova.png',
           organization: 'Rodiny proti prohibici',
-          description: 'Mgr. Dana Syslová je adiktoložka a psychoterapeutka.'
+          description: 'Má univerzitní vzdělání v oboru sociální práce, absolvovala akreditovaný výcvik v systemické psychoterapii a je registrovanou inspektorkou kvality sociálních služeb. V současnosti působí jako nezávislá konzultantka, věnuje se zejména podpoře zvyšování kvality sociálních služeb a rozvoji organizací poskytujících sociální služby. Od loňského roku aktivně spolupracuje s iniciativou Rodiny proti prohibici.'
         },
         { 
          name: 'Marianna Sádecká', 
@@ -126,8 +126,14 @@ export default {
          photo: '/speakers/blaha.jpg',
          organization: 'Students For Liberty',
          description: 'Filip Blaha je člen Students For Liberty CZ a odborník na drogovou problematiku.'
-        }
+        },
 
+        { 
+         name: 'Irena Fenyklová', 
+         photo: '/speakers/fenyklova.jpg',
+         organization: 'Rodiny proti prohibici',
+         description: 'Matka syna, který byl odsouzen na dvanáct let vězení za přečiny související s pěstováním a držením velkého množství konopí, aniž by mu soudem byla prokázána distribuce. Je spoluzakladatelkou  iniciativy Rodiny proti prohibici, která sdružuje další oběti současných represivních zákonů a nabízí jim právní pomoc i lidskou podporu. Navštěvuje soudy s lidmi, kterým hrozí podobně drakonické tresty jako jejímu synovi, účastní se různých besed a konferencí s cílem šířit povědomí o této problematice. '
+        },
       ],
       selectedSpeaker: null
     };
