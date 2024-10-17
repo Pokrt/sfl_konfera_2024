@@ -185,11 +185,6 @@ export default {
               picture: '/speakers/mallarino.jpg',
               bio: 'Bára je absolventkou magisterského programu na UK oboru fyziologie člověka se specializací na neurobiologii.'
             },
-            { 
-              name: 'Tereza Urzová', 
-              picture: '/speakers/urzova.jpg',
-              bio: 'Tereza Urzová je lékařka a analytička Institutu liberálních studií. Dříve působila i ve spolku Svobodný přístav, který spoluzaložila. Dlouhodobě se věnuje ekonomickým a zdravotně-sociálním dopadům prohibice psychoaktivních látek.'
-            },
 
           ],
           moderator: { 
