@@ -59,7 +59,7 @@
             </router-link>
 
             <router-link @click="subNavbarHide($event.target.parentElement.parentElement.parentElement)"
-                         to="/#vstupenky">O nás
+                         to="/#tickets">Vstupenky
             </router-link>
           </li>
           <!--          <li>-->
