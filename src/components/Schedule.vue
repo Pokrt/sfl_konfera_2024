@@ -107,6 +107,12 @@ export default {
               picture: '/speakers/voboril.jpeg',
               bio: 'Jindřich Vobořil působí jako expertní poradce současného premiéra. Patří k předním českým expertům v oblasti závislostí a v minulosti dlouhodobě zastával i pozici Národního protidrogového koordinátora, na které se zabýval například přípravou zákona o regulaci konopí, který by vytvořil jasná pravidla pro zavedení regulovaného trhu s konopím v České republice.'
 
+            },
+            { 
+            name: "Robert Veverka",
+            picture: "/speakers/veverka.jpg",
+            bio:
+              " Robert Veverka je politicky aktivní propagátor reformy drogové politiky, který usiluje především o regulaci konopí pro osobní i průmyslové účely. Již patnáct let předsedá neziskové organizaci Legalizace.cz a od roku 2010 je vydavatelem a šéfredaktorem magazínu Legalizace. Posledních šest let je zastupitelem městské části Praha 2 za Pirátskou stranu, kde je členem bezpečnostní komise. Dále je členem komise Rady hl. m. Prahy pro protidrogovou politiku. V roce 2024 se stal předsedou spolku Racionální regulace RARE, ve kterém společně s dalšími odborníky aktivně připravuje návrh zákona o regulaci konopí, který by měl umožnit všem dospělým lidem legálně pěstovat a držet konopí pro vlastní potřebu nebo jej získat v distribuční síti speciálních prodejen. Za tímto účelem spolek letos v září spustil celonárodní kampaň Je to OK!"
             }
           ],
           moderator: { 

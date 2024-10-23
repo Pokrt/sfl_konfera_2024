@@ -75,6 +75,14 @@ export default {
           description:
             "Bývalý poslanec PSP ČR, který stojí za zvýšením hranice pro obsah THC v technickém konopí na 1 %. Předseda Asociace bezpečného konopí, z.s. a spoluzakladatel RARE - Racionální regulace, spolku který připravuje celoplošnou kampaň s cílem vytvořit tlak na politickou reprezentaci a přispět tak zásadně k přijetí zákona o regulaci konopí."
         },
+
+        {
+          name: "Robert Veverka",
+          photo: "/speakers/veverka.jpg",
+          organization: "Magazín Legalizace",
+          description:
+            " Robert Veverka je politicky aktivní propagátor reformy drogové politiky, který usiluje především o regulaci konopí pro osobní i průmyslové účely. Již patnáct let předsedá neziskové organizaci Legalizace.cz a od roku 2010 je vydavatelem a šéfredaktorem magazínu Legalizace. Posledních šest let je zastupitelem městské části Praha 2 za Pirátskou stranu, kde je členem bezpečnostní komise. Dále je členem komise Rady hl. m. Prahy pro protidrogovou politiku. V roce 2024 se stal předsedou spolku Racionální regulace RARE, ve kterém společně s dalšími odborníky aktivně připravuje návrh zákona o regulaci konopí, který by měl umožnit všem dospělým lidem legálně pěstovat a držet konopí pro vlastní potřebu nebo jej získat v distribuční síti speciálních prodejen. Za tímto účelem spolek letos v září spustil celonárodní kampaň Je to OK!"
+        },
         {
           name: "Martin Duřt",
           photo: "/speakers/durt.png",
